@@ -9,12 +9,12 @@ function Coder() {
     };
     return (
     <>
-           <Container fluid className="text-center">
-                <Row className="pt-5">
-                    <Col xs={12} md={12} lg={12} >
-                        <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none ">Developers</h1>
-                        <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Developers</h1>
-                    </Col>
+  <Container fluid className="text-center">
+      <Row className="pt-5">
+      <Col xs={12} md={12} lg={12} >
+      <h1 variant="danger" style={{fontSize:"4rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder", wordWrap:"break-word"}} className="color d-block d-md-none ">Developers</h1>
+      <h1 variant="danger" style={{fontSize:"7rem", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder",wordWrap:"break-word"}} className="color d-none d-md-block text-lg-left">Developers</h1>
+  </Col>
 
     <Container className="m-t-7" style={{marginTop:"5rem"}}> 
       <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
