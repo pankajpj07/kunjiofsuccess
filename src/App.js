@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import Menubar from './Components/Menubar'
+import Navbar from './Components/Navbar'
 import {Container} from 'react-bootstrap'
 import Footer from './Components/Footer'
 import {  Switch, Route } from 'react-router-dom';
@@ -57,7 +58,7 @@ const App=()=>{
         <>
           <Container fluid>
           <Suspense fallback={<Loader/>}>
-            <Menubar/>
+            <Navbar/>
             <Switch>
             
                     <Route exact path='/' component={Home}/>
