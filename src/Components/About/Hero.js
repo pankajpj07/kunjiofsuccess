@@ -1,6 +1,5 @@
 import React from 'react'
-import {useState} from 'react'
-import {Row,Container, Col,Image,Carousel} from 'react-bootstrap'
+import {Row,Container, Col,Image} from 'react-bootstrap'
 
 function Hero() {
     return (

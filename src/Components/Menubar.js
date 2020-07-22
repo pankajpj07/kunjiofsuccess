@@ -9,7 +9,7 @@ const Menubar=()=>{
     return(
         <>
             <Navbar collapseOnSelect expand="lg"  className=" p-3"  style={{background:"#FF725E" }} variant="light" sticky="top" >
-                <a href="/"  ><Image src="./assets/elogo.png"  style={{height:"70px"}}/></a>
+                <a href="/#home"  ><Image src="./assets/elogo1.png"  style={{height:"70px"}}/></a>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     

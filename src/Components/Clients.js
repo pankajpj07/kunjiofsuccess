@@ -20,13 +20,13 @@ export class Clients extends React.Component {
 
                     <Row >
                         <Col xs={12} md={4} lg={4}  className="mt-5">
-                            <Image width="150px" src="./assets/sp.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
+                            <Image width="150px" src="./assets/sp.jpg"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
                         </Col>
                         <Col xs={12} md={4} lg={4}   className="mt-5">
-                            <Image width="150px" src="./assets/rivertab.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
+                            <Image width="150px" src="./assets/rivertab.jpg"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} roundedCircle/>
                         </Col>
                         <Col xs={12} md={4} lg={4}  className="mt-5">
-                            <Image width="150px" src="./assets/bigtyme.png"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2) "}} roundedCircle/>
+                            <Image width="150px" src="./assets/bigtyme.jpg"  style={{ borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2) "}} roundedCircle/>
                 
                         </Col>
                         

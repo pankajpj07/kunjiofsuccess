@@ -1,6 +1,8 @@
 import React from 'react'
 import {useState} from 'react'
 import {Row,Container, Col,Image,Carousel} from 'react-bootstrap'
+import "../../App.css";
+
 function Coder() { 
     // Coder carousel
     const [index, setIndex] = useState(0);
@@ -28,8 +30,19 @@ function Coder() {
                           <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Pankaj Jain</h2>
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">Pankaj Jain is the chairman & CEO of KunjiOfSuccess, a modern-day media and communications holding company and full-service marketing agency servicing clients across the various locations.</p>
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Pankaj Jain is the chairman & CEO of KunjiOfSuccess, a modern-day media and communications holding company and full-service marketing agency servicing clients across the various locations.</p>
-                          <div className="text-lg-left d-block d-md-none"><span><a href="https://google.com"><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem",padding:"1.3rem"}}></i></a></span> <span><a href="https://google.com"><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem"}}></i></a></span></div>
-                          <div className="text-lg-left d-none d-md-block"><span><a href="https://google.com" style={{fontSize:"2.6rem",padding:"0 0.6rem 0 0.6rem"}}><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" ></i></a></span> <span><a href="https://google.com" ><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"3rem",padding:"0 0.6rem 0 0.6rem"}}></i></a></span></div>
+                          <ul className="social-network social-circle text-left"> 
+                              <li>
+                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
+                                      <i class="fa fa-facebook"/>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                      <i class="fa fa-linkedin"/>
+                                    </a>
+                              </li>
+                              
+                          </ul>
                           </Col>
                           
                       </Row>
@@ -45,8 +58,19 @@ function Coder() {
                           <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Shekh Aliul</h2>
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">Shekh Aliul is highly self motivated web developer who spends most of time building applications, Teaching Others and Lopping himself upto date with latest technologies</p>
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shekh Aliul is highly self motivated web developer who spends most of time building applications, Teaching Others and Lopping himself upto date with latest technologies</p>
-                          <div className="text-lg-left d-block d-md-none"><span><a href="https://www.instagram.com/aliii___19/"><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem",padding:"1.3rem"}}></i></a></span> <span><a href="https://www.linkedin.com/in/shekh-aliul/"><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem"}}></i></a></span></div>
-                          <div className="text-lg-left d-none d-md-block"><span><a href="https://www.instagram.com/aliii___19/" style={{fontSize:"2.6rem",padding:"0 0.6rem 0 0.6rem"}}><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" ></i></a></span> <span><a href="https://www.linkedin.com/in/shekh-aliul/" ><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"3rem",padding:"0 0.6rem 0 0.6rem"}}></i></a></span></div>
+                          <ul className="social-network social-circle text-left"> 
+                              <li>
+                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
+                                      <i class="fa fa-facebook"/>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                      <i class="fa fa-linkedin"/>
+                                    </a>
+                              </li>
+                              
+                          </ul>
                           </Col>
                           
                       </Row>
@@ -65,8 +89,19 @@ function Coder() {
                             <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Ramasai Dandamudi</h2>
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">I'm Ramasai Dandamudi and i'mAn Energetic , Enthusiastic , Hardworking , Responsible and self learning graduate student looking forward for a good opportunity  in order to secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills</p>
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">I'm Ramasai Dandamudi and i'mAn Energetic , Enthusiastic , Hardworking , Responsible and self learning graduate student looking forward for a good opportunity  in order to secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills</p>
-                            <div className="text-lg-left d-block d-md-none"><span><a href="https://google.com"><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem",padding:"1.3rem"}}></i></a></span> <span><a href="https://google.com"><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2rem"}}></i></a></span></div>
-                            <div className="text-lg-left d-none d-md-block"><span><a href="https://google.com"><i className="fa fa-instagram card-icons text-lg-left" aria-hidden="true" style={{fontSize:"2.6rem",padding:"0 0.6rem 0 0.6rem"}}></i></a></span> <span><a href="https://google.com" ><i className="fa fa-linkedin card-icons text-lg-left" aria-hidden="true" style={{fontSize:"3rem",padding:"0 0.6rem 0 0.6rem"}}></i></a></span></div>
+                            <ul className="social-network social-circle text-left"> 
+                              <li>
+                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
+                                      <i class="fa fa-facebook"/>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                      <i class="fa fa-linkedin"/>
+                                    </a>
+                              </li>
+                              
+                          </ul>
                           </Col>
                       </Row>
                 </Carousel.Item>   

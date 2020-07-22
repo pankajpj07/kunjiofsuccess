@@ -7,7 +7,7 @@ function Navbar() {
 	
 	<header className="header">
 		<div className="logo">
-        <a href="/"  ><Image src="./assets/elogo.png"  style={{height:"70px"}}/></a>
+        <a href="/"  ><Image src="./assets/elogo1.png"  style={{height:"70px"}}/></a>
 		</div>
 		
 		<a href="#menu" className="mobile-menu__opener" id="mobile-menu__opener" role="button" tabindex="0"><span>Menu</span></a>

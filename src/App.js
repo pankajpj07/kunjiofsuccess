@@ -1,5 +1,4 @@
 import React, { Suspense, lazy } from 'react';
-import Menubar from './Components/Menubar'
 import Navbar from './Components/Navbar'
 import {Container} from 'react-bootstrap'
 import Footer from './Components/Footer'
