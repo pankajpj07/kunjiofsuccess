@@ -32,15 +32,15 @@ function Coder() {
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Pankaj Jain is the chairman & CEO of KunjiOfSuccess, a modern-day media and communications holding company and full-service marketing agency servicing clients across the various locations.</p>
                           <ul className="social-network social-circle text-left"> 
                               <li>
-                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
-                                      <i class="fa fa-facebook"/>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
-                                      <i class="fa fa-linkedin"/>
-                                    </a>
-                              </li>
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                          <i class="fa fa-instagram"/>
+                                        </a>
+                                  </li>
+                                  <li>
+                                        <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                          <i class="fa fa-linkedin"/>
+                                        </a>
+                                  </li>
                               
                           </ul>
                           </Col>
@@ -60,8 +60,8 @@ function Coder() {
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shekh Aliul is highly self motivated web developer who spends most of time building applications, Teaching Others and Lopping himself upto date with latest technologies</p>
                           <ul className="social-network social-circle text-left"> 
                               <li>
-                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
-                                      <i class="fa fa-facebook"/>
+                                    <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                      <i class="fa fa-instagram"/>
                                     </a>
                               </li>
                               <li>
@@ -85,14 +85,14 @@ function Coder() {
                               {/*Change Ramsai photo */}
                           </Col>
                           <Col xs={12} md={6} className="">
-                            <h2 variant="danger" style={{fontSize:"30px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none text-lg-left">Ramasai Dandamudi</h2>
-                            <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Ramasai Dandamudi</h2>
-                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">I'm Ramasai Dandamudi and i'mAn Energetic , Enthusiastic , Hardworking , Responsible and self learning graduate student looking forward for a good opportunity  in order to secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills</p>
-                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">I'm Ramasai Dandamudi and i'mAn Energetic , Enthusiastic , Hardworking , Responsible and self learning graduate student looking forward for a good opportunity  in order to secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills</p>
+                            <h2 variant="danger" style={{fontSize:"30px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none text-lg-left">Nishat</h2>
+                            <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Nishant</h2>
+                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">Nishank is a wordpress developer who loves to interact with different project and scale them accordingly. He is the Lead Wordpress developer for KunjiOfSuccess</p>
+                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Nishank is a wordpress developer who loves to interact with different project and scale them accordingly. He is the Lead Wordpress developer for KunjiOfSuccess</p>
                             <ul className="social-network social-circle text-left"> 
-                              <li>
-                                    <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
-                                      <i class="fa fa-facebook"/>
+                            <li>
+                                    <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                      <i class="fa fa-instagram"/>
                                     </a>
                               </li>
                               <li>
