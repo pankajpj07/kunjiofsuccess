@@ -60,12 +60,12 @@ function Coder() {
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shekh Aliul is highly self motivated web developer who spends most of time building applications, Teaching Others and Lopping himself upto date with latest technologies</p>
                           <ul className="social-network social-circle text-left"> 
                               <li>
-                                    <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                    <a href="https://www.instagram.com/aliii___19/" className="icoInstagram" title="Instagram">
                                       <i class="fa fa-instagram"/>
                                     </a>
                               </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/in/shekh-aliul/" className="icoLinkedin " title="Linkedin">
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
