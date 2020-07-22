@@ -3,7 +3,7 @@ import { Image ,Nav,} from 'react-bootstrap'
 
 function Navbar() {
     return (
-        <div className="sticky-top shadow-sm">
+        <div className="sticky-top" id="top-shadow">
 	
 	<header className="header">
 		<div className="logo">

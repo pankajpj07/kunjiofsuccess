@@ -126,7 +126,7 @@ html, body { height: 100%; }
 	justify-content: space-between;
 	max-width: 100%;
 	margin: 0 auto;
-	padding: var(--content-padding);
+	padding: 1.2em 1.6em;
 	position: relative;
 	background-color: var(--secondary-bg-color);
 }
@@ -359,4 +359,13 @@ html, body { height: 100%; }
 		-webkit-transform: translateY(6em);
 				transform: translateY(6em);
 	}
+}
+/* NAvbar shadow */
+
+.top-shadow {
+  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0.1, 0.1);
+  -moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }

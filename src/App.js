@@ -55,9 +55,9 @@ const PageNotFound = lazy(() => {
 const App=()=>{
     return(
         <>
+        <Navbar/>
           <Container fluid>
           <Suspense fallback={<Loader/>}>
-            <Navbar/>
             <Switch>
             
                     <Route exact path='/' component={Home}/>
