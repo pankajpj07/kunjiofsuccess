@@ -39,8 +39,7 @@ return (
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
-                              
-                          </ul>
+                        </ul>
                         </Col>
                     </Row>
                 </Carousel.Item>

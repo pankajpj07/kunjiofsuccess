@@ -58,8 +58,10 @@ export default class Contact extends Component {
     return (
             <Container className="text-center" style={{marginTop:"165px",marginBottom:"165px"}} id="contact">      
                 
-            <h2 variant="danger" style={{fontSize:"50px", fontFamily:'"Montserrat", sans-serif'}}>LET'S WORK TOGETHER</h2>
+            <h3 className="display-4 font-weight-bold mb-0 pt-md-5 d-none d-md-block">LET'S WORK TOGETHER{" "}</h3>
+            <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Contact Us</h5>
             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}}>We love working with smart people. Set your idea as an example to the world!</p>
+            <hr/>
             <Form>
                 <Row>
                     <Col> 

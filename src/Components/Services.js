@@ -2,7 +2,7 @@ import React from 'react'
 import {Container,Card,Button,CardDeck,Modal} from 'react-bootstrap'
 import { useState } from 'react';
 import "../App.css";
-
+import { MDBMask,MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer } from "mdbreact";
 
 export default function Services() {
     const [webshow, websetShow] = useState(false);
@@ -18,28 +18,47 @@ export default function Services() {
     return (
         <React.Fragment>
             <section  className="mt-5">
+                <Container className="text-center" fluid>
+                <h3 className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Let's Create</h3>
+                <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Let's Create</h5>
+                <h5 className="subtext-header mt-2 mb-4 d-none d-md-block">You think of an idea and we will help you turn that into business</h5>
+                    <br/>
+                    <br/>
+                    
+                    <MDBView className="d-none d-md-block">
+                    <iframe width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+                    </MDBView>
+                    <MDBView className="d-md-none">
+                        {/* <video className="video-intro"  playsInline controls muted="" width="90%" height="auto" >
+                        <source src="./assets/intro.mp4" type="video/mp4" />
+                        </video> */}
+                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+
+                    </MDBView>
+                    {/* MDB VIEW */}
+                </Container>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <Container id="services" className="text-center">
-                    <h2 variant="danger" style={{fontSize:"40px", fontFamily: " 'Montserrat', sans-serif"}} className="d-block d-md-none">OUR SERVICES</h2>
-                    <h2 variant="danger" style={{fontSize:"50px", fontFamily: " 'Montserrat', sans-serif "}} className="d-none d-md-block">OUR SERVICES</h2>
-                   
-                    <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}}>Our markup services will help you sort through the digital & marketing stuff, so you can focus on the things you do best.</p>
-                    <br/>
-                    <br/>
-                    <br/>
-                   <br/>
-                    <CardDeck className="text-center ">
+                <h3 className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Services</h3>
+                <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Services{" "}</h5>
+                <h5 className="subtext-header mt-2 mb-4 d-none d-md-block">We will help you with all your digital needs so that you can focus on your business.</h5>
+                <br/>
+                <br/>
+                    <CardDeck className="text-center m-3">
                         <Card className="border border-danger card1">
                             <Card.Img variant="top" src="/assets/webdesigning.png" />
                             <Card.Body>
                                 <Card.Title style={{fontSize:"25px"}}>Website Designing</Card.Title>
                                 <Card.Text>
-                                    Website is the key component of a business, We take Website designing seriously.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer >
                                 <Button variant="danger" id="web" onClick={webhandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
                     onMouseOver={()=>document.getElementById('web').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('web').style.transform="scale(1)"} >EXPLORE MORE</Button>
+                    onMouseOut={()=>document.getElementById('web').style.transform="scale(1)"} ><i class="fa fa-play" aria-hidden="true"></i> Play</Button>
                             </Card.Footer>
                         </Card>
                         <Card className="border border-danger card1">
@@ -47,13 +66,12 @@ export default function Services() {
                             <Card.Body>
                                 <Card.Title style={{fontSize:"25px"}}>Online Marketing</Card.Title>
                                 <Card.Text>
-                                    Even a noob can build a normal website these days! But what about marketing? Don't worry we got you covered.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer >
                                 <Button variant="danger" id="online" onClick={onlinehandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
                     onMouseOver={()=>document.getElementById('online').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('online').style.transform="scale(1)"} >EXPLORE MORE</Button>
+                    onMouseOut={()=>document.getElementById('online').style.transform="scale(1)"} > <i class="fa fa-play" aria-hidden="true"></i> Play</Button>
                             </Card.Footer>
                         </Card>
                         <Card className="border border-danger card1">
@@ -61,13 +79,12 @@ export default function Services() {
                             <Card.Body>
                             <Card.Title style={{fontSize:"25px"}}>Social Engagement</Card.Title>
                                 <Card.Text >
-                                    Engaging with the customer as per their needs is so hectic. Use our CRM team to deal with the customers and make them addicted to your services.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
                                 <Button variant="danger" id="social" onClick={socialhandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
                     onMouseOver={()=>document.getElementById('social').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('social').style.transform="scale(1)"} >EXPLORE MORE</Button>
+                    onMouseOut={()=>document.getElementById('social').style.transform="scale(1)"} ><i class="fa fa-play" aria-hidden="true"></i> Play</Button>
                             </Card.Footer>
                         </Card>
                     </CardDeck>

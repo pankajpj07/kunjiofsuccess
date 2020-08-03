@@ -9,8 +9,8 @@ export class Clients extends React.Component {
     render(){
         
         return(<Container className="text-center">
-                    <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif'}} className="d-block d-md-none">Our Clients</h2>
-                    <h2 variant="danger" style={{fontSize:"50px", fontFamily:'"Hammersmith One", sans-serif'}} className="d-none d-md-block">Our Clients</h2>
+                    <h3 className="display-4 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Clients</h3>
+                    <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Clients</h5>
                     
                     <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block">We are working with 10+ clients. Some of our selected clients are as below</p>
                     <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none">We are working with 10+ clients. Some of our selected clients are as below</p>

@@ -22,8 +22,6 @@ const Homepage=()=>{
           
           </Container>
            
-                <br/>
-                <br/>
           <Services />
           <Clients/>
           <Contact/>

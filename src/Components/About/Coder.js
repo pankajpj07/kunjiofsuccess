@@ -87,8 +87,8 @@ function Coder() {
                           <Col xs={12} md={6} className="">
                             <h2 variant="danger" style={{fontSize:"30px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-block d-md-none text-lg-left">Nishat</h2>
                             <h2 variant="danger" style={{fontSize:"40px", fontFamily:'"Hammersmith One", sans-serif',fontWeight:"bolder"}} className="color d-none d-md-block text-lg-left">Nishant</h2>
-                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">Nishank is a wordpress developer who loves to interact with different project and scale them accordingly. He is the Lead Wordpress developer for KunjiOfSuccess</p>
-                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Nishank is a wordpress developer who loves to interact with different project and scale them accordingly. He is the Lead Wordpress developer for KunjiOfSuccess</p>
+                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none text-lg-left">Nishant Thakur is working as Developer for KunjiofSuccess. He is highy workoholic person in our team. Every problem he has a solution.</p>
+                            <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Nishant Thakur is working as Developer for KunjiofSuccess. He is highy workoholic person in our team. Every problem he has a solution.</p>
                             <ul className="social-network social-circle text-left"> 
                             <li>
                                     <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
