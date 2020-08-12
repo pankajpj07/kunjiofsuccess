@@ -25,8 +25,9 @@ export default class Testimonials extends Component {
         interval={6100}
         >
         <div>
-          <img alt="daniel" src="./assets/rivertab.jpg" />
+          <img alt="RiverTab" src="./assets/rivertab.jpg" />
           <div className="myCarousel">
+              
             <h3>RiverTab</h3>
             <h4>Real Estate agency in Hyderabad</h4>
             <p>
@@ -37,19 +38,19 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img alt="daniel" src="./assets/sp.jpg" />
+          <img alt="Shivani Polytech" src="./assets/sp.jpg" />
           <div className="myCarousel">
             <h3>Shivani Polytech</h3>
-            <h4>Polybags Manufacturer in Delhi </h4>
+            <h4>Polybag's Manufacturers in Delhi </h4>
             <p>
               The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+              recommend KunjiOfSuccess to my peers.
             </p>
           </div>
         </div>
 
         <div>
-          <img alt="daniel" src="./assets/bigtyme.jpg" />
+          <img alt="BigTyme" src="./assets/bigtyme.jpg" />
           <div className="myCarousel">
             <h3>BigTyme</h3>
             <h4>Boxing & Fitness in Canada</h4>
