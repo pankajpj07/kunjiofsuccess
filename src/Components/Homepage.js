@@ -1,8 +1,9 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 import Contact from './Contact'
-import Clients from './Clients'
+// import Clients from './Clients'
 import Services from './Services'
+import Testimonials from './Testimonials'
 
 
 
@@ -23,7 +24,8 @@ const Homepage=()=>{
           </Container>
            
           <Services />
-          <Clients/>
+          {/* <Clients/> */}
+          <Testimonials/>
           <Contact/>
           </>
         );

@@ -8,10 +8,10 @@ function Footer2() {
                 <div className="row">
                 <div className="col-sm-12 col-md-6">
                     <h6>About</h6>
-                    <p className="text-justify"><span className="orange">Kunjiofsuccess</span> <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                    <p className="text-justify"><span className="orange">KunjiOfSuccess</span> <i>EMPOWERING STARTUPS CREATING BRANDS </i>  is an imaginative marketing agency in Delhi makes the business website more interactive and search engine friendly to help to get top position in search engine. We are offering innovative Web Designing, Web Development, E-Commerce Website, Web Portal, SEO, Digital Marketing, Mobile Application computerized advertising and web showcasing arrangements.</p>
                     <br/>
                     <h6>Office</h6>
-                    <p className="text-justify">First Floor, Block 1B, RMZ NXT, EPIP, Whitefield Main Rd, Industrial Area, Whitefield, Bengaluru, Karnataka 560066</p>
+                    <p className="text-justify">House no. 34, i1 Block, Phase I, Budh Vihar, New Delhi, Delhi 110086</p>
 
 
                 </div>
@@ -35,8 +35,9 @@ function Footer2() {
                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                     <li><a href="/terms-and-conditions">T&C</a></li>
                     <li><a href="/disclaimer"> Disclaimer</a></li>
+                    <li><a href="https://cutshort.io/company/kunjiofsuccess-99" target="_blank" rel="noopener noreferrer"> Careers</a></li>
                     </ul>
-                </div>
+                </div> 
                 </div>
                 <hr/>
             </div>

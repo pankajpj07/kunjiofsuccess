@@ -2,7 +2,7 @@ import React from 'react'
 import {Container,Card,Button,CardDeck,Modal} from 'react-bootstrap'
 import { useState } from 'react';
 import "../App.css";
-import { MDBMask,MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer } from "mdbreact";
+import { MDBView } from "mdbreact";
 
 export default function Services() {
     const [webshow, websetShow] = useState(false);
@@ -21,18 +21,18 @@ export default function Services() {
                 <Container className="text-center" fluid>
                 <h3 className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Let's Create</h3>
                 <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Let's Create</h5>
-                <h5 className="subtext-header mt-2 mb-4 d-none d-md-block">You think of an idea and we will help you turn that into business</h5>
+                <h5 className="subtext-header mt-2 mb-4 ">You think of an idea and we will help you turn that into business</h5>
                     <br/>
                     <br/>
                     
                     <MDBView className="d-none d-md-block">
-                    <iframe width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+                    <iframe title="let's create" width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
                     </MDBView>
                     <MDBView className="d-md-none">
                         {/* <video className="video-intro"  playsInline controls muted="" width="90%" height="auto" >
                         <source src="./assets/intro.mp4" type="video/mp4" />
                         </video> */}
-                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+                    <iframe title="let's create" width="100%" height="350" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
 
                     </MDBView>
                     {/* MDB VIEW */}
