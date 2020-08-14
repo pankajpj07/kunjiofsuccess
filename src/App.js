@@ -50,6 +50,11 @@ const PageNotFound = lazy(() => {
     setTimeout(() => resolve(import("./Components/PageNotFound")), 100);
   });
 });
+const Social = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => resolve(import("./Components/Services/Social")), 100);
+  });
+});
 // React Lazy Loading End
 
 const App=()=>{
@@ -67,6 +72,7 @@ const App=()=>{
                     <Route  path='/terms-and-conditions' component={Terms}/>
                     <Route  path='/privacy-policy' component={Privacy_policy}/>
                     <Route  path='/disclaimer' component={Disclaimer}/>
+                    <Route  path='/social' component={Social}/>
                     <Route  path='/*' component={PageNotFound}/>
           
             </Switch>
