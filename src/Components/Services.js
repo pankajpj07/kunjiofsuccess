@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {Container,Card,Button,CardDeck,Modal} from 'react-bootstrap'
 import { useState } from 'react';
 import "../App.css";
 import { MDBView } from "mdbreact";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Services() {
+    
+
+    useEffect(() => {
+        AOS.init({duration:3500})
+    }, [])
     const [webshow, websetShow] = useState(false);
     const [onlineshow, onlinesetShow] = useState(false);
     const [socialshow, socialsetShow] = useState(false);
@@ -25,8 +32,8 @@ export default function Services() {
                     <br/>
                     <br/>
                     
-                    <MDBView className="d-none d-md-block">
-                    <iframe title="let's create" width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+                    <MDBView data-aos="fade-right" className="d-none d-md-block">
+                        <iframe title="let's create" width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
                     </MDBView>
                     <MDBView className="d-md-none">
                         {/* <video className="video-intro"  playsInline controls muted="" width="90%" height="auto" >
@@ -42,9 +49,9 @@ export default function Services() {
                 <br/>
                 <br/>
                 <Container id="services" className="text-center">
-                <h3 className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Services</h3>
-                <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Services{" "}</h5>
-                <h5 className="subtext-header mt-2 mb-4 d-none d-md-block">We will help you with all your digital needs so that you can focus on your business.</h5>
+                <h3 data-aos="fade-up" className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Services</h3>
+                <h5 data-aos="fade-up" className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Services{" "}</h5>
+                <h5 data-aos="fade-right"className="subtext-header mt-2 mb-4 d-none d-md-block">We will help you with all your digital needs so that you can focus on your business.</h5>
                 <br/>
                 <br/>
                     <CardDeck className="text-center m-3">

@@ -1,25 +1,28 @@
 import React,{ useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "../../social.css";
+import "./social.css";
 import {Card,Button} from 'react-bootstrap'
 import Designs from './Designs'
 
 
 export default function Social() {
+    
     useEffect(() => {
         AOS.init({duration:2500})
     }, [])
     return (
         <>
-        <h1>Our Designs</h1>
+        <section className="freearea-100">
+        </section>
+        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>Our Designs</h1>
         <Designs/>
-        <section className="freearea">
+        <hr/>
+        <section className="freearea-100">
 
         </section>
-        <section className="freearea">
-
-        </section>
+        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>Price Plans</h1>
+        <hr/>
         <div className="pricing">
             <div className="plans py-5" >
                 <Card data-aos="fade-right" className="boxes">
@@ -86,7 +89,7 @@ export default function Social() {
                 </Card>
             </div>
         </div>
-        <section className="freearea">
+        <section className="freearea-300">
 
         </section>
         </>

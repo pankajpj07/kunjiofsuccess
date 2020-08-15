@@ -1,0 +1,145 @@
+.containers{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.containers .cards{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    width: 500px;
+    border: 0.05px solid black;
+}
+.containers .cards img{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+.containers .cards .card-info{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    background:rgb(0,0,0,0.6);
+    justify-content:flex-end;
+    opacity: 0;
+}
+.containers .cards .card-info:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.containers .cards .card-info h1{
+    color: white;
+    font-size: 2rem;
+}
+.containers .cards .card-info button{
+    border:none;
+    outline: none;
+    font-size: 18px;
+    width: 80px;
+}
+.containers .cards .card-info h1,
+.containers .cards .card-info button{
+    transform: translateX(-400px);
+    transition: 0.3s ease-in-out;
+}
+.containers .cards:hover .card-info h1,
+.containers .cards:hover .card-info button{
+    transform: translateX(0px);
+}
+
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background:rgb(0,0,0,0.6);
+    z-index: 5;
+    width: 100%;
+    min-height: 100vh;
+}
+.lightbox .carousel{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    background: white;
+    z-index: 6;
+    border-radius: 50%;
+}
+.lightbox .carousel span{
+    position: absolute;
+    height: 3px;
+    width: 10px; 
+    left: calc(50% - 5px);
+    top: calc(50% - 1.5px);
+    display: block;
+    border-radius: 10px;
+    background:rgba(175, 26, 26, 0.9);
+
+}
+
+.lightbox .carousel.left{
+    left:15px;
+}
+
+.lightbox .carousel.right{
+    right:15px  ;
+}
+.lightbox .carousel.left span:nth-child(1){
+
+    transform: rotate(-30deg);
+    transform-origin: left;
+}
+.lightbox .carousel.left span:nth-child(2){
+
+    transform: rotate(30deg);
+    transform-origin: left;
+}
+.lightbox .carousel.right span:nth-child(1){
+
+    transform: rotate(-30deg);
+    transform-origin: right;
+}
+.lightbox .carousel.right span:nth-child(2){
+
+    transform: rotate(30deg);
+    transform-origin: right;
+}
+.lightbox .carousel:hover{
+    background: red;
+    cursor: pointer;
+}
+.lightbox .carousel:hover span{
+    
+    background: white;
+}
+.lightbox .close{
+    position: absolute;
+    background-color: lightgrey;
+    height: 30px;
+    width: 80px;
+    margin-top: 150px;
+    border-radius: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 20px;
+    z-index: 6;
+}
+
