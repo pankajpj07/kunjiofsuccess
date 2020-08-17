@@ -60,7 +60,6 @@ export default function Designs() {
        <section class="containers">
            {card}
        </section>
-       
     </>
         
     )

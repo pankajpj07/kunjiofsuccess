@@ -1,11 +1,11 @@
 
 .pricing{
-    max-width: 100%;
-    background-color: #4e2d92;
-    font-family: Circularstd, sans-serif;
+    background-color: #b19cd9;
     color: #333;
     font-size: 18px;
     line-height: 20px;
+    max-width: 100%;
+overflow-x: hidden;
 }
 .plans{
     max-width: 80%;
@@ -26,13 +26,15 @@
     padding: 20px;
     color:#4e2d92;
 }
+
 @media only screen and (max-width: 1500px) {
-    .boxes{
-        
-        height: 65vh;
-        
-    }
+  .boxes{
+      
+      height: 65vh;
+      
   }
+  
+}
 
 
 .title{
@@ -50,17 +52,55 @@
 }
 ul {
     list-style: none;
+}
+ul>li{
+    margin: 4px;
+    }
+    .included::before{
+        content: '✓  ';
+        color: green;
+       font-weight: 900;
+    }
+    .not-included::before{
+        content: 'X ';
+        color: red;
+        font-weight: 600;
+    }
+  .green{
+      width: 100%;
+      height: 600px;
+      background-color: lightgreen;
+    }
+    .orange-box{
+    background: #fda543;
+    padding: 80px 0 40px 0;
   }
-  ul>li{
-      margin: 4px;
-  }
-   .included::before{
-    content: '✓  ';
-    color: green;
-    font-weight: 900;
-  }
-  .not-included::before{
-    content: 'X ';
-    color: red;
-    font-weight: 600;
-  }
+  .brown-box {
+    background: #e0673c;
+    padding: 80px 0 40px 0;
+}
+
+.brown-box h2, .orange-box h2, .strategy-box h2 {
+    font-size: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-family: Montserrat,sans-serif;
+
+}
+.brown-box p, .orange-box p, .strategy-box p {
+    
+    font-family: Rajdhani,serif;
+    color: #fff;
+
+}
+.strategy-box {
+    background: #a0c26b;
+    padding: 80px 0 40px 0;
+    
+}
+.callnowfix{
+    font-size: 28px;
+}
+  
