@@ -15,10 +15,9 @@ function Navbar() {
 
 		<nav id="menu" className="menu">
             <Nav.Link href="/" className="menu__item ">Home</Nav.Link>
-            <Nav.Link href="/#services" className="menu__item" >Services</Nav.Link>
+            <Nav.Link href="/social" className="menu__item" >Social Media</Nav.Link>
             <Nav.Link href="/about-us " className="menu__item">About</Nav.Link>
-            <Nav.Link href="https://cutshort.io/company/kunjiofsuccess-99" target="_blank" className="menu__item">Careers</Nav.Link>
-            <Nav.Link href="/#contact"  className="d-none d-md-block menu__item menu__item_active" >Contact</Nav.Link>
+            <Nav.Link href="https://startupdevta.com/"  className="d-none d-md-block menu__item menu__item_active" >StartupDevta</Nav.Link>
             <Nav.Link href="https://wa.me/918010592093?text=I%27m%20interested" target="_blank"  className="d-md-none menu__item menu__item_active" >Contact Us</Nav.Link>
 		</nav>
 	</header>

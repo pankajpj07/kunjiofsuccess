@@ -2,57 +2,65 @@ import React,{useState} from 'react'
 import './designs.css'
 const portfolio=[
     {
-         "src":"https://image.freepik.com/free-vector/photography-instagram-stories-template-collection_52683-11439.jpg",
-        "title":"Photography"
+         "src":"https://image.freepik.com/free-psd/coronavirus-instagram-stories-template-with-photo_23-2148484432.jpg",
+        "client":"https://www.instagram.com/makhijabrothers/",
+        "title":"COVID-19"
     },
     { 
-        "src":"https://i.pinimg.com/originals/34/a9/36/34a9368b1a1c7a4d5fb025c75108c246.jpg",
-        "title":"Interior"
+        "src":"https://fernieweb.com/wp-content/uploads/2014/03/home-banner.jpg",
+        "client":"https://www.instagram.com/kunjiofsuccess.uxui/",
+        "title":"UI/UX"
     },
     { 
         "src":"https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/5653484/600/400/m2/fpnw/wm0/cm-north-wales-ig-stories-mock-upsartboard-1-.png?1546744036&s=c4479b71502197c0c53498ad262f8282",
+        "client":"https://www.instagram.com/pennytravelr/",
         "title":"Travelling"
     },
     {
          "src":"https://i.pinimg.com/originals/b4/7d/46/b47d46d379f06ae5b0f4abde6f115fd0.jpg",
+        "client":"https://www.instagram.com/grofitnutrition/",
         "title":"Fitness"
     },
     { 
         "src":"https://i.pinimg.com/originals/64/a7/a8/64a7a89966f42517e954655296aecc75.jpg",
+        "client":"https://www.instagram.com/orgaliciousfoods/",
         "title":"Food"
     },
     { 
-        "src":"https://image.freepik.com/free-psd/liquid-pastel-brown-fashion-social-media-banner-instagram-templates_158757-15.jpg",
-        "title":"Fashion"
+        "src":"https://elements-cover-images-0.imgix.net/2a0a9840-a6cf-4f5f-81fc-3d663dca74b8?auto=compress%2Cformat&fit=max&w=710&s=4b02467e486332eefaf07907cca064ff",
+        "client":"https://www.instagram.com/madlol_yt/",
+        "title":"Gaming"
     },
     { 
-        "src":"https://i.pinimg.com/originals/0e/86/eb/0e86eb6df3714582f5601f22030648e2.jpg",
-        "title":"Quotes"
+        "src":"https://motionarray.imgix.net/preview-226668-7pzCq30srw-high_0010.jpg",
+        "client":"https://www.instagram.com/salasarfinance/",
+        "title":"Financial"
     },
     { 
         "src":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/132379246/original/b99b0d93be1fcc1e7fe538c0834e90aa580d2c93/design-hq-instagram-post-with-artwork.png",
-        "title":"Sales & Store"
+        "client":"https://www.instagram.com/my999store/",
+        "title":"E-commerce"
     },
     { 
-        "src":"https://image.freepik.com/free-vector/green-plant-instagram-stories-template_104237-70.jpg",
-        "title":"Plants"
+        "src":"https://i.pinimg.com/originals/b5/6e/58/b56e58da89a54c3b50dff63ec27a6c4e.jpg",
+        "client":"https://www.instagram.com/officialgoldenkite/",
+        "title":"Fashion"
     },
 
     ]
 
 export default function Designs() {
-    const [dispDesign,setDesign]=useState('')
-    const showDesign=(event)=>{
-            setDesign(portfolio[Number(event.target.id)].src)
-    }
+    
     const card =portfolio.map((obj,ind)=>{
-        return(<div className="cards" key={ind}>
+        return(
+        <div className="cards" key={ind}>
             <img src={obj.src} alt={obj.title} height="200px" width="200px"/>
             <div className="card-info">
                 <h1 className="card-title">
                     {obj.title}
                 </h1>
-                <button id={ind} onClick={showDesign}>preview</button>
+                <a class="btn btn-success" href={obj.client} target="_blank" rel="noopener noreferrer" role="button">EXPLORE</a>
+
             </div>
         </div>)
     })

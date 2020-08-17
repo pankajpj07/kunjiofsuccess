@@ -14,17 +14,21 @@ export default function Social() {
     }, [])
     return (
         <>
-        <section className="freearea-100">
-        </section>
-        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>DESIGNS WE SUPPORT</h1>
+        <section className="freearea-50 d-md-none"></section>
+        <section className="freearea-100 d-none d-md-block"></section>
+        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>OUR WORK SO FAR</h1>
+        <hr/>
         <Designs/>
+        <hr/>
+
         <section className="mt-5 orange-box">		
             <div className="container">
                 <div className="row">
                     <div className="col-md-5 col-lg-5 text-center">
-                        <img className="img-responsive" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/briefing-pic1.png" alt="briefing product shape"/>
+                        <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/briefing-pic1.png" alt="briefing product shape"/>
                     </div>
                     <div className="col-md-7 col-lg-7">
+                        <br/>
                         <h2>Research</h2>
                         <p className="text-justify">We try to get a structure with the initial assessment by understanding your business requirements. Our assessment is followed by deriving best-suited solutions for your business that helps you define the goals and outcomes of the site.</p>
                         <p>&nbsp;<br/><br/></p>
@@ -39,14 +43,14 @@ export default function Social() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-5 col-lg-5 text-center d-md-none">
-                        <img className="img-responsive" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/shape-pic.jpg" alt="product sketch"/><br/><br/></div>
+                        <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/shape-pic.jpg" alt="product sketch"/><br/><br/></div>
                     <div className="col-md-7 col-lg-7 text-right">
                         <h2>DESIGNING</h2>
                         <p className="text-justify">Briefing section is preceded by designing shapes with multiple aspects on the canvas. Every design we make are derived focusing on the respected business. For the products that take the liquid form, we work on sketches for bottles, tetra packs, and other feasible shapes.</p>
-                        <img className="img-responsive" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/packaging-shape.jpg" alt="product shape design"/>
+                        <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/packaging-shape.jpg" alt="product shape design"/>
                         <p>&nbsp;<br/><br/></p>
                     </div>	
-                    <div className="col-md-5 col-lg-5 text-center d-none d-md-block"><img className="img-responsive" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/shape-pic.jpg" alt="product shape"/><br/><br/></div>
+                    <div className="col-md-5 col-lg-5 text-center d-none d-md-block"><img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/shape-pic.jpg" alt="product shape"/><br/><br/></div>
                 </div>
             </div>
         </section>
@@ -54,17 +58,17 @@ export default function Social() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-lg-6 text-center">
-                        <img className="img-responsive" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/3d.png" alt="product 3d render"/><br/><br/></div>
+                        <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/3d.png" alt="product 3d render"/><br/><br/></div>
                     <div className="col-md-6 col-lg-6">
-                        <h2>3D RENDERING</h2>
-                        <p className="text-justify">Manual sketches on the paper derive the real progress when they are taken in professional CAD drawings and 3D models and prototyping. We conduct market research to know the things that are working in the current market place. The final product is created with the help of our extensive manufacturing vendors.</p>
+                        <h2>ENGAGING</h2>
+                        <p className="text-justify">Social engagement allows you to share your brand with more people. By increasing the number of positive interactions customers have with you online, you increase your chances of them recommending your brand to the people that they know or posting about their experience on social media.</p>
                     </div>
                 </div>
             </div>
         </section>
        <hr/>
        <br/>
-        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR SERVICE</h1>
+        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
         <br/>
         <hr/>
         <div className="pricing">
@@ -87,7 +91,7 @@ export default function Social() {
                         </Card.Text>
                         
                         <h2 style={{float:'left'}}>3499 </h2><span>*month</span>
-                        <Button variant="success" style={{float:'right'}}>Choose this plan</Button>
+                        <Button variant="success" href="#contact2" style={{float:'right'}}>Choose this plan</Button>
                     </Card.Body>
                 </Card>
                 <Card data-aos="fade-up" className="boxes" style={{backgroundColor:"#22055d",color:"white"}}>
@@ -107,7 +111,7 @@ export default function Social() {
                             </ul>
                         </Card.Text>
                         <h2 style={{float:'left'}}>5499 </h2><span>*month</span>
-                        <Button variant="success" style={{float:'right'}}>Choose this plan</Button>
+                        <Button variant="success" href="#contact2" style={{float:'right'}}>Choose this plan</Button>
                     </Card.Body>
                 </Card>
                 <Card data-aos="fade-left" className="boxes">
@@ -127,7 +131,7 @@ export default function Social() {
                             </ul>
                         </Card.Text >
                         <h2 style={{float:'left'}}>7499 </h2><span>*month</span>
-                        <Button variant="success" style={{float:'right'}}>Choose this plan</Button>
+                        <Button href="#contact2"  variant="success" style={{float:'right'}}>Choose this plan</Button>
 
                     </Card.Body>
                 </Card>
