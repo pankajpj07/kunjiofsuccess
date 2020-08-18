@@ -9,7 +9,7 @@ function Footer2() {
                 <div className="row">
                 <div className="col-sm-12 col-md-6">
                     <h6>About</h6>
-                    <p className="text-justify"><span className="orange">KunjiOfSuccess</span> <i>EMPOWERING STARTUPS CREATING BRANDS </i>  is an imaginative marketing agency in Delhi makes the business website more interactive and search engine friendly to help to get top position in search engine. We are offering innovative Web Designing, Web Development, E-Commerce Website, Web Portal, SEO, Digital Marketing, Mobile Application computerized advertising and web showcasing arrangements.</p>
+                    <p className="text-justify"><span style={{color:'#ff725e'}}>KunjiOfSuccess</span> <i>EMPOWERING STARTUPS CREATING BRANDS </i>  is an imaginative marketing agency in Delhi makes the business website more interactive and search engine friendly to help to get top position in search engine. We are offering innovative Web Designing, Web Development, E-Commerce Website, Web Portal, SEO, Digital Marketing, Mobile Application computerized advertising and web showcasing arrangements.</p>
                     <br/>
                     <h6>Office</h6>
                     <p className="text-justify">House no. 34, i1 Block, Phase I, Budh Vihar, New Delhi, Delhi 110086</p>
@@ -55,24 +55,24 @@ function Footer2() {
               <ul className="social-network social-circle text-left"> 
               <li>
                   <a href="https://www.facebook.com/Kunjiofsuccess-110280730654877/" className="icoFacebook" title="Facebook">
-                    <i class="fa fa-facebook"/>
+                    <i class="fab fa-facebook-f"/>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/kunjiofsuccess/" className="icoInstagram " title="Linkedin">
-                  <i class="fa fa-instagram"/>
+                  <i class="fab fa-instagram"/>
                   </a>
                 </li>
                 
                 <li>
                   <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
-                    <i class="fa fa-linkedin"/>
+                    <i class="fab fa-linkedin"/>
                   </a>
                 </li>
               
                 <li>
                   <a href="https://wa.me/918010592093?text=I%27am%20interested" className="icoWhatsapp " title="Whatsapp">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  <i class="fab fa-whatsapp" aria-hidden="true"></i>
                   </a>
                 </li>
               </ul>

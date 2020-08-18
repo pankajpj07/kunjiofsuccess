@@ -1,5 +1,5 @@
 import React from 'react'
-import './designs.css'
+import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 const portfolio=[
     {
          "src":"https://image.freepik.com/free-psd/coronavirus-instagram-stories-template-with-photo_23-2148484432.jpg",
@@ -53,22 +53,71 @@ export default function Designs() {
     
     const card =portfolio.map((obj,ind)=>{
         return(
-        <div className="cards" key={ind}>
-            <img src={obj.src} alt={obj.title} height="200px" width="200px"/>
-            <div className="card-info">
-                <h1 className="card-title">
-                    {obj.title}
-                </h1>
-                <a class="btn btn-success" href={obj.client} target="_blank" rel="noopener noreferrer" role="button">EXPLORE</a>
+        // <div className="cards" key={ind}>
+        //     <img src={obj.src} alt={obj.title}/>
+        //     <div className="card-info">
+        //         <h1 className="card-title">
+        //             {obj.title}
+        //         </h1>
+        //         <a class="btn btn-success" href={obj.client} target="_blank" rel="noopener noreferrer" role="button">EXPLORE</a>
 
-            </div>
-        </div>)
+        //     </div>
+        // </div>)
+        <>
+            <MDBCol size="4" className="d-none d-lg-block py-3 px-md-5">
+              <MDBCard>
+                <MDBCardImage className="img-fluid" src={obj.src}
+                  waves />
+                <MDBCardBody>
+                  <MDBCardTitle>{obj.title}</MDBCardTitle>
+                 <MDBCardText>We have worked with clients under {obj.title} category</MDBCardText>
+                  <MDBBtn gradient="purple" href={obj.client} target="_blank">EXPLORE</MDBBtn>
+
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+            <MDBCol size="6" className="d-none d-md-block d-lg-none py-3 px-md-5">
+              <MDBCard>
+                <MDBCardImage className="img-fluid" src={obj.src}
+                  waves />
+                <MDBCardBody>
+                  <MDBCardTitle>{obj.title}</MDBCardTitle>
+                  <MDBCardText>We have worked with clients under {obj.title} category</MDBCardText>
+
+                  <MDBBtn  gradient="purple" href={obj.client}target="_blank">EXPLORE</MDBBtn>
+
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+            <MDBCol size="12" className="d-block d-md-none py-3 px-md-5">
+              <MDBCard>
+                <MDBCardImage className="img-fluid" src={obj.src}
+                  waves />
+                <MDBCardBody>
+                  <MDBCardTitle>{obj.title}</MDBCardTitle>
+                  <MDBCardText>We have worked with clients under {obj.title} category</MDBCardText>
+
+                  <MDBBtn gradient="purple"  href={obj.client} target="_blank">EXPLORE</MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+            
+        </>
+        
+        
+  
+        )
     })
     return (<>
-       <section class="containers">
-           {card}
-       </section>
+       <MDBContainer fluid style={{boxSizing:"border-box",padding:'20px'}}>
+            <MDBRow>
+                {card}
+            </MDBRow>
+
+        </MDBContainer>
+
     </>
         
-    )
+        
+    )       
 }

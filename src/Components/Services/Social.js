@@ -3,8 +3,9 @@ import AOS from 'aos';
 import Contact2 from '../Contact2'
 import 'aos/dist/aos.css';
 import "./social.css";
-import {Card,Button} from 'react-bootstrap'
+// import {Card,Button} from 'react-bootstrap'
 import Designs from './Designs'
+import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBBadge, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 
 
 export default function Social() {
@@ -16,7 +17,7 @@ export default function Social() {
         <>
         <section className="freearea-50 d-md-none"></section>
         <section className="freearea-100 d-none d-md-block"></section>
-        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>OUR WORK SO FAR</h1>
+        <h1 className=" h1-responsive" style={{textAlign:'center'}}>OUR WORK SO FAR</h1>
         <hr/>
         <Designs/>
         <hr/>
@@ -68,7 +69,7 @@ export default function Social() {
         </section>
        <hr/>
        <br/>
-        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
+        {/* <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
         <br/>
         <hr/>
         <div className="pricing">
@@ -91,7 +92,7 @@ export default function Social() {
                         </Card.Text>
                         
                         <h2 style={{float:'left'}}>3499 </h2><span>*month</span>
-                        <Button variant="success" href="#contact2" style={{float:'right'}}>Choose this plan</Button>
+                        <Button variant="success" href="#contact2" style={{float:'right'}}>GRAB NOW</Button>
                     </Card.Body>
                 </Card>
                 <Card data-aos="fade-up" className="boxes" style={{backgroundColor:"#22055d",color:"white"}}>
@@ -111,7 +112,7 @@ export default function Social() {
                             </ul>
                         </Card.Text>
                         <h2 style={{float:'left'}}>5499 </h2><span>*month</span>
-                        <Button variant="success" href="#contact2" style={{float:'right'}}>Choose this plan</Button>
+                        <Button variant="success" href="#contact2" style={{float:'right'}}>GRAB NOW</Button>
                     </Card.Body>
                 </Card>
                 <Card data-aos="fade-left" className="boxes">
@@ -131,12 +132,100 @@ export default function Social() {
                             </ul>
                         </Card.Text >
                         <h2 style={{float:'left'}}>7499 </h2><span>*month</span>
-                        <Button href="#contact2"  variant="success" style={{float:'right'}}>Choose this plan</Button>
+                        <Button href="#contact2"  variant="success" style={{float:'right'}}>GRAB NOW</Button>
 
                     </Card.Body>
                 </Card>
             </div>
-        </div>
+        </div> */}
+        <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
+        <br/>
+        <hr/>
+        <MDBContainer className="pricng ">
+            <MDBRow>
+                <MDBCol  className="p-lg-3 py-3 px-md-5  col-12col-sm-12 col-md-12 col-lg-4">
+                    <MDBCard>
+                        <MDBCardBody>
+                        <MDBCardTitle><h1>Basic</h1></MDBCardTitle>
+                        <br/>
+                        <MDBCardText>
+                            <ul>
+                                <li className="included">10 graphic Posts</li>
+                                <li className="included">Monthly Bio updation</li>
+                                <li className="included">Monthly Insights report</li>
+                                <li className="included">1 Profile Booster</li>
+                                <li className="not-included">Theme Pages</li>
+                                <li className="not-included">Post scheduling</li>
+                                <li className="not-included">Captions &amp; Hashtags</li>
+                                <li className="not-included">Custom Branding</li>
+                                <li className="not-included">DM handling</li>
+                            </ul>
+                        </MDBCardText>
+                        <br/>
+
+                        <h3>Buy Now at <MDBBadge color="primary">3499/-</MDBBadge></h3>
+                        <MDBBtn   href='#contact2' >GRAB NOW</MDBBtn>
+                        
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol className="p-lg-3 py-3 px-md-5  col-12 col-sm-12 col-md-12 col-lg-4">
+                    <MDBCard>
+                        <MDBCardBody>
+                        <MDBCardTitle><h1>Standard</h1></MDBCardTitle>
+                                                <br/>
+                        <MDBCardText>
+                            <ul>
+                                <li className="included">20 graphic Posts</li>
+                                <li className="included">Weekly Bio updation</li>
+                                <li className="included">Weekly Insights report</li>
+                                <li className="included">2 Profile Booster</li>
+                                <li className="included">Theme Pages</li>
+                                <li className="included">Post scheduling</li>
+                                <li className="not-included">Captions &amp; Hashtags</li>
+                                <li className="not-included">Custom Branding</li>
+                                <li className="not-included">DM handling</li>
+                            </ul>
+                        </MDBCardText>
+                        <br/>
+
+                        <h3>Buy Now at <MDBBadge color="primary">5499/-</MDBBadge></h3>
+
+                        <MDBBtn href='#contact2' >GRAB NOW</MDBBtn>
+                        
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol className="p-lg-3 py-3 px-md-5  col-12 col-sm-12 col-md-12 col-lg-4">
+                    <MDBCard>
+                        <MDBCardBody>
+                        <MDBCardTitle><h1>Premium</h1></MDBCardTitle>
+                        <br/>
+                        <MDBCardText>
+                            <ul>
+                                <li className="included">30 Posts + 10 stories</li>
+                                <li className="included">On-demand Bio updation</li>
+                                <li className="included">On-demand Insights report</li>
+                                <li className="included">4 Profile Booster</li>
+                                <li className="included">Theme Pages</li>
+                                <li className="included">Post scheduling</li>
+                                <li className="included">Captions &amp; Hashtags</li>
+                                <li className="included">Custom Branding</li>
+                                <li className="included">DM handling</li>
+                            </ul>
+                        </MDBCardText>
+                        <br/>
+
+                        <h3>Buy Now at <MDBBadge color="primary">7499/-</MDBBadge></h3>
+
+                        <MDBBtn    href='#contact2' >GRAB NOW</MDBBtn>
+                        
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+            </MDBRow>
+        </MDBContainer>
+        <hr/>
         <Contact2/>
         </>
     )
