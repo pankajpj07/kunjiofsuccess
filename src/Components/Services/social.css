@@ -30,7 +30,18 @@ overflow-x: hidden;
 @media only screen and (max-width: 1500px) {
   .boxes{
       
-      height: 65vh;
+      height: 100%;
+      
+  }
+  .boxes .card-body{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .plans{
+      max-width:90%;
+  }
+  .title{
+      text-align: center;
       
   }
   

@@ -74,7 +74,7 @@ export default function Social() {
         <div className="pricing">
             <div className="plans py-5" >
                 <Card data-aos="fade-right" className="boxes">
-                    <Card.Body>
+                    <Card.Body >
                         <Card.Title className="title" >Basic</Card.Title>
                         <Card.Text className="p-3 lists">
                             <ul>
