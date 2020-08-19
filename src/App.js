@@ -55,13 +55,17 @@ const Social = lazy(() => {
     setTimeout(() => resolve(import("./Components/Services/Social")), 100);
   });
 });
+const Web = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => resolve(import("./Components/Services/Web")), 100);
+  });
+});
 // React Lazy Loading End
 
 const App=()=>{
     return(
         <>
         <Navbar/>
-          <Container fluid>
           <Suspense fallback={<Loader/>}>
             <Switch>
             
@@ -73,12 +77,12 @@ const App=()=>{
                     <Route  path='/privacy-policy' component={Privacy_policy}/>
                     <Route  path='/disclaimer' component={Disclaimer}/>
                     <Route  path='/social' component={Social}/>
+                    <Route  path='/web' component={Web}/>
                     <Route  path='/*' component={PageNotFound}/>
           
             </Switch>
 
             </Suspense>
-          </Container>
           <Footer/>
           
         </>

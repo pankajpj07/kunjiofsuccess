@@ -139,6 +139,7 @@ export default function Social() {
             </div>
         </div> */}
         <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
+        
         <br/>
         <hr/>
         <MDBContainer className="pricng ">
@@ -162,9 +163,9 @@ export default function Social() {
                             </ul>
                         </MDBCardText>
                         <br/>
-
+                        <form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FSJZoX4GPVifYm"> </script> </form>
                         <h3>Buy Now at <MDBBadge color="primary">3499/-</MDBBadge></h3>
-                        <MDBBtn   href='#contact2' >GRAB NOW</MDBBtn>
+                        <MDBBtn   href='https://rzp.io/l/3oEhejU' target="_blank" >GRAB NOW</MDBBtn>
                         
                         </MDBCardBody>
                     </MDBCard>
@@ -191,7 +192,7 @@ export default function Social() {
 
                         <h3>Buy Now at <MDBBadge color="primary">5499/-</MDBBadge></h3>
 
-                        <MDBBtn href='#contact2' >GRAB NOW</MDBBtn>
+                        <MDBBtn href='https://rzp.io/l/uBfYXHQ' target="_blank">GRAB NOW</MDBBtn>
                         
                         </MDBCardBody>
                     </MDBCard>
@@ -218,7 +219,8 @@ export default function Social() {
 
                         <h3>Buy Now at <MDBBadge color="primary">7499/-</MDBBadge></h3>
 
-                        <MDBBtn    href='#contact2' >GRAB NOW</MDBBtn>
+                        <MDBBtn    href='https://rzp.io/l/AT7vfm9' target="_blank">GRAB NOW</MDBBtn>
+
                         
                         </MDBCardBody>
                     </MDBCard>
