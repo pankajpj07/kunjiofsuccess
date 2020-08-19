@@ -56,7 +56,10 @@ export default class Contact extends Component {
     render(){
 
     return (
-            <Container className="text-center" style={{marginTop:"165px",marginBottom:"165px"}} id="contact">      
+            <Container className="text-center" style={{marginTop:"165px",marginBottom:"165px"}} id="contact"> 
+              <br/>
+            <br/>
+            <br/>   
                 
             <h3 className="display-4 font-weight-bold mb-0 pt-md-5 d-none d-md-block">LET'S WORK TOGETHER{" "}</h3>
             <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Contact Us</h5>

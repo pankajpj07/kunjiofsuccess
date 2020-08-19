@@ -7,61 +7,69 @@ import "../App.css";
 
 export default class Testimonials extends Component {
   render() {
-    return (
-        <Container fluid className="text-center">
-                    <h3 className="display-4 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Clients</h3>
-                    <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Clients</h5>
-                    
-                    <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block">Let's see how people are enjoying working with us</p>
-                    <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"18px"}} className="d-block d-md-none">Let's see how people are enjoying working with us</p>
-                    
-           
-      <Carousel 
-        showArrows={true}
-        infiniteLoop={true}
-        showThumbs={false}
-        showStatus={false}
-        autoPlay={true}
-        interval={6100}
-        >
-        <div>
-          <img alt="RiverTab" src="./assets/rivertab.jpg" />
-          <div className="myCarousel">
-              
-            <h3>RiverTab</h3>
-            <h4>Real Estate agency in Hyderabad</h4>
-            <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
-            </p>
-          </div>
-        </div>
+    return (<>
+        <div class="container mt-5">
 
-        <div>
-          <img alt="Shivani Polytech" src="./assets/sp.jpg" />
-          <div className="myCarousel">
-            <h3>Shivani Polytech</h3>
-            <h4>Polybag's Manufacturers in Delhi </h4>
-            <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend KunjiOfSuccess to my peers.
-            </p>
-          </div>
-        </div>
 
-        <div>
-          <img alt="BigTyme" src="./assets/bigtyme.jpg" />
-          <div className="myCarousel">
-            <h3>BigTyme</h3>
-            <h4>Boxing & Fitness in Canada</h4>
-            <p>
-              I enjoy catching up with KunjiOfSuccess for my business, or my social profile management because of their commitment. The logo you are seeing with this testimonial is designed by KunjiOfSuccess in just 1 day.
-          </p>
-          </div>
-        </div>
-      </Carousel>
-      </Container>
+<section class="text-center dark-grey-text">
 
+  <h1 className=" h1-responsive" style={{textAlign:'center'}}>Testimonials</h1>
+
+  <p class="text-center w-responsive mx-auto mb-5">We have worked with so many customers. Let's see what they say about us.</p>
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-12 mb-4">
+      <div class="card testimonial-card">
+        <div class="card-up info-color"></div>
+        <div class="avatar mx-auto white">
+          <img src="./assets/tyrrell.png" class="rounded-circle img-fluid" width="250px"/>
+        </div>
+        <div class="card-body">
+          <h4 class="font-weight-bold mb-4">Tyrrell Bellzapproved</h4>
+          <hr/>
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>The simple and intuitive design makes it easy for me use. I highly recommend KunjiOfSuccess to my peers</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card testimonial-card">
+        <div class="card-up blue-gradient">
+        </div>
+        <div class="avatar mx-auto white">
+          <img src="./assets/bigtyme.png" class="rounded-circle img-fluid" width="250px"/>
+        </div>
+        <div class="card-body">
+          <h4 class="font-weight-bold mb-4">The BoxerDude</h4>
+          <hr/>
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>I enjoy catching up with KunjiOfSuccess for my business, or my social profile management because of their commitment.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card testimonial-card">
+        <div class="card-up indigo"></div>
+        <div class="avatar mx-auto white">
+          <img src="./assets/dr-pankaj.jpeg" class="rounded-circle img-fluid" width="250px"/>
+        </div>
+        <div class="card-body">
+          <h4 class="font-weight-bold mb-4">Dr. Pankaj Tuli</h4>
+          <hr/>
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>You made it so simple. My new site is so much faster and easier to work. I just choose the page, make the change and click save.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+</div>
+      
+</>
     );
   }
 }

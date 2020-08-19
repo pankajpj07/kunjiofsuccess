@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
  
 }
+html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
 
 body {
   margin: 0;
@@ -10,7 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.border-top {
+	border-top-width: 2px !important;
+  }
 .color{
   color: #ff725e;
 }

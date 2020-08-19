@@ -9,143 +9,73 @@ import 'aos/dist/aos.css';
 export default function Services() {
     
 
-    useEffect(() => {
-        AOS.init({duration:3500})
-    }, [])
-    const [webshow, websetShow] = useState(false);
-    const [onlineshow, onlinesetShow] = useState(false);
-    const [socialshow, socialsetShow] = useState(false);
+   
+    return (<>
 
-    const webhandleClose = () => websetShow(false);
-    const webhandleShow = () => websetShow(true);
-    const onlinehandleClose = () => onlinesetShow(false);
-    const onlinehandleShow = () => onlinesetShow(true);
-    const socialhandleClose = () => socialsetShow(false);
-    const socialhandleShow = () => socialsetShow(true);
-    return (
-        <React.Fragment>
-            <section  className="mt-5">
-                <Container className="text-center" fluid>
-                <h3 className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Let's Create</h3>
-                <h5 className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Let's Create</h5>
-                <h5 className="subtext-header mt-2 mb-4 ">You think of an idea and we will help you turn that into business</h5>
-                    <br/>
-                    <br/>
-                    
-                    <MDBView data-aos="fade-right" className="d-none d-md-block">
-                        <iframe title="let's create" width="70%" height="700" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
-                    </MDBView>
-                    <MDBView className="d-md-none">
-                        {/* <video className="video-intro"  playsInline controls muted="" width="90%" height="auto" >
-                        <source src="./assets/intro.mp4" type="video/mp4" />
-                        </video> */}
-                    <iframe title="let's create" width="100%" height="350" src="https://www.youtube.com/embed/PRgvVz-FxZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+<div className="container-fluid my-5" >
 
-                    </MDBView>
-                    {/* MDB VIEW */}
-                </Container>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <Container id="services" className="text-center">
-                <h3 data-aos="fade-up" className="display-3 font-weight-bold mb-0 pt-md-5 d-none d-md-block">Our Services</h3>
-                <h5 data-aos="fade-up" className="display-4 font-weight-bold mb-0 pt-md-5 d-md-none">Our Services{" "}</h5>
-                <h5 data-aos="fade-right"className="subtext-header mt-2 mb-4 d-none d-md-block">We will help you with all your digital needs so that you can focus on your business.</h5>
-                <br/>
-                <br/>
-                    <CardDeck className="text-center m-3">
-                        <Card className="border border-danger card1">
-                            <Card.Img variant="top" src="/assets/webdesigning.png" />
-                            <Card.Body>
-                                <Card.Title style={{fontSize:"25px"}}>Website Designing</Card.Title>
-                                <Card.Text>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer >
-                                <Button variant="danger" id="web" onClick={webhandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
-                    onMouseOver={()=>document.getElementById('web').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('web').style.transform="scale(1)"} ><i class="fa fa-play" aria-hidden="true"></i> Play</Button>
-                            </Card.Footer>
-                        </Card>
-                        <Card className="border border-danger card1">
-                            <Card.Img variant="top" src="/assets/marketing.png" />
-                            <Card.Body>
-                                <Card.Title style={{fontSize:"25px"}}>Online Marketing</Card.Title>
-                                <Card.Text>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer >
-                                <Button variant="danger" id="online" onClick={onlinehandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
-                    onMouseOver={()=>document.getElementById('online').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('online').style.transform="scale(1)"} > <i class="fa fa-play" aria-hidden="true"></i> Play</Button>
-                            </Card.Footer>
-                        </Card>
-                        <Card className="border border-danger card1">
-                            <Card.Img variant="top" src="/assets/social1.png" />
-                            <Card.Body>
-                            <Card.Title style={{fontSize:"25px"}}>Social Engagement</Card.Title>
-                                <Card.Text >
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <Button variant="danger" id="social" onClick={socialhandleShow} style={{fontSize:"18px", borderRadius:"25px", boxShadow:"0 10px 20px 0 rgba(0, 0, 0, 0.2)"}} 
-                    onMouseOver={()=>document.getElementById('social').style.transform="scale(0.9)"} 
-                    onMouseOut={()=>document.getElementById('social').style.transform="scale(1)"} ><i class="fa fa-play" aria-hidden="true"></i> Play</Button>
-                            </Card.Footer>
-                        </Card>
-                    </CardDeck>
-                </Container>
-            </section>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            {/* web designing modal */}
-            <Modal show={webshow} onHide={webhandleClose}>
-                <Modal.Header closeButton>
-                <Modal.Title>Web Designing | KunjiOfSuccess</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                <iframe title="web designing" width="100%" height="415" src="https://www.youtube.com/embed/JbGsRHq9OCw?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                </Modal.Body>
-                <Modal.Footer>
-                <Button variant="danger" onClick={webhandleClose}>
-                    Close
-                </Button>
-                </Modal.Footer>
-            </Modal>
+  <section id="services">
 
-            {/* Online Marketing modal */}
-            <Modal show={onlineshow} onHide={onlinehandleClose}>
-                <Modal.Header closeButton>
-                <Modal.Title>Online Marketing | KunjiOfSuccess</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                <iframe title="Online Marketing" width="100%" height="415" src="https://www.youtube.com/embed/2k4_Bmoxf80?controls=0"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                </Modal.Body>
-                <Modal.Footer>
-                <Button variant="danger" onClick={onlinehandleClose}>
-                    Close
-                </Button>
-                </Modal.Footer>
-            </Modal>
 
-            {/* Social engagement modal */}
-            <Modal show={socialshow} onHide={socialhandleClose}>
-                <Modal.Header closeButton>
-                <Modal.Title>Social Engagement | KunjiOfSuccess</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                <iframe title="Social engagement" width="100%" height="415" src="https://www.youtube.com/embed/9QR6e8dmzGM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
-                </Modal.Body>
-                <Modal.Footer>
-                <Button variant="danger" onClick={socialhandleClose}>
-                    Close
-                </Button>
-                </Modal.Footer>
-            </Modal>
+    <h1 className=" h1-responsive" style={{textAlign:'center'}}>Our Services</h1>
+
+    <p className="lead text-center text-muted pt-2 mb-5">Join thousands of satisfied customers using our services
+      globally.</p>
+
+    <div class="row text-center">
+
+      <div className="col-md-6  col-xl-6 mb-4">
+        <div className="card text-center bg-success text-white">
+          <div className="card-body">
+            <p className="mt-4 pt-2"><i className="far fa-object-ungroup fa-4x"></i></p>
+            <h5 className="font-weight-normal my-4 py-2"><a className="text-white" href="#">Website Designing</a></h5>
+            <p className="mb-4">The different areas of web design include web graphic design, interface design, user experience design and search engine optimization</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-6   col-xl-6 mb-4">
+        <div className="card text-center">
+          <div className="card-body">
+            <p className="mt-4 pt-2"><i className="fas fa-mobile-alt fa-4x grey-text"></i></p>
+            <h5 className="font-weight-normal my-4 py-2"><a className="dark-grey-text" href="#">Mobile App</a></h5>
+            <p className="text-muted mb-4">A mobile application is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-6   col-xl-6 mb-4">
+        <div className="card text-center deep-purple lighten-1 text-white">
+          <div className="card-body">
+            <p className="mt-4 pt-2"><i className="fas fa-chart-line fa-4x"></i></p>
+            <h5 className="font-weight-normal my-4 py-2"><a className="text-white" href="#">Digital Marketing</a></h5>
+            <p className="mb-4">Digital marketing utilizes online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-6   col-xl-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <p className="mt-4 pt-2"><i className="fas fa-bullhorn fa-4x grey-text"></i></p>
+            <h5 className="font-weight-normal my-4 py-2"><a className="dark-grey-text" href="#">Social Media Management</a></h5>
+            <p className="text-muted mb-4">We manage your online presence on social media platforms like Facebook, Instagram, and Twitter by creating, publishing, and analyzing content you post.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+        
+  
+
+
+
+</div>
+<br/>
+  <br/>
             
-        </React.Fragment>
+        </>
     )
 }
