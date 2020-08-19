@@ -12,7 +12,7 @@ export default function Great() {
   {/* Section heading */}
   <h2 class="text-center font-weight-bold mb-4 pb-2">Why We Are Best?</h2>
   {/* Section description */}
-  <p class="text-center lead grey-text mx-auto mb-5">We at KunjiOfSuccess learned work hard in silence let success make the noise for you and we are honoured to create successful branding case studies of our clients by putting forward quality services. Our goal is to authentically communicate brand value, with the ultimate objective of helping our clients grow.</p>
+  <p class="text-center lead grey-text mx-auto mb-5">We at KunjiOfSuccess learned work hard in silence let success make the noise for you. Our goal is to authentically communicate brand value, with the ultimate objective of helping our clients grow.</p>
 
   {/* Grid row */}
   <div class="row">

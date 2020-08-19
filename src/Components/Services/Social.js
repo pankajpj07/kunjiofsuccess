@@ -16,6 +16,41 @@ export default function Social() {
     return (
         <>
         <section className="freearea-50 d-md-none"></section>
+        <div class="container-fluid my-5 py-5">
+
+
+  <section class=" text-center">
+    
+    <h1 class="font-weight-bold pt-5 pb-2">THINK & CREATE</h1>
+
+    <div class="row mx-3">
+      <div class="col-md-4 px-4 mb-4">
+
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg" class="img-fluid" alt="smaple image"/>
+        </div>
+
+      </div>
+     <div class="col-md-4 px-4 mb-4">
+
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg" class="img-fluid" alt="smaple image"/>
+        </div>
+
+      </div>
+      <div class="col-md-4 px-4 mb-4">
+
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg" class="img-fluid" alt="smaple image"/>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+</div>
         <section className="freearea-100 d-none d-md-block"></section>
         <h1 className=" h1-responsive" style={{textAlign:'center'}}>OUR WORK SO FAR</h1>
         <hr/>
@@ -46,7 +81,7 @@ export default function Social() {
                     <div className="col-md-5 col-lg-5 text-center d-md-none">
                         <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/shape-pic.jpg" alt="product sketch"/><br/><br/></div>
                     <div className="col-md-7 col-lg-7 text-right">
-                        <h2>DESIGNING</h2>
+                        <h2>DESIGN</h2>
                         <p className="text-justify">Briefing section is preceded by designing shapes with multiple aspects on the canvas. Every design we make are derived focusing on the respected business. For the products that take the liquid form, we work on sketches for bottles, tetra packs, and other feasible shapes.</p>
                         <img className="img-fluid" src="https://www.designerpeople.com/wp-content/themes/bootstrapfast/img/packaging-shape.jpg" alt="product shape design"/>
                         <p>&nbsp;<br/><br/></p>
@@ -67,79 +102,14 @@ export default function Social() {
                 </div>
             </div>
         </section>
+        <br/>
+        <br/>
        <hr/>
        <br/>
-        {/* <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
-        <br/>
-        <hr/>
-        <div className="pricing">
-            <div className="plans py-5" >
-                <Card data-aos="fade-right" className="boxes">
-                    <Card.Body >
-                        <Card.Title className="title" >Basic</Card.Title>
-                        <Card.Text className="p-3 lists">
-                            <ul>
-                                <li className="included">10 graphic Posts</li>
-                                <li className="included">Monthly Bio updation</li>
-                                <li className="included">Monthly Insights report</li>
-                                <li className="included">1 Profile Booster</li>
-                                <li className="not-included">Theme Pages</li>
-                                <li className="not-included">Post scheduling</li>
-                                <li className="not-included">Captions &amp; Hashtags</li>
-                                <li className="not-included">Custom Branding</li>
-                                <li className="not-included">DM handling</li>
-                            </ul>
-                        </Card.Text>
-                        
-                        <h2 style={{float:'left'}}>3499 </h2><span>*month</span>
-                        <Button variant="success" href="#contact2" style={{float:'right'}}>GRAB NOW</Button>
-                    </Card.Body>
-                </Card>
-                <Card data-aos="fade-up" className="boxes" style={{backgroundColor:"#22055d",color:"white"}}>
-                    <Card.Body>
-                        <Card.Title className="title">Standard</Card.Title>
-                        <Card.Text className="p-3 lists">
-                            <ul>
-                                <li className="included">20 graphic Posts</li>
-                                <li className="included">Weekly Bio updation</li>
-                                <li className="included">Weekly Insights report</li>
-                                <li className="included">2 Profile Booster</li>
-                                <li className="included">Theme Pages</li>
-                                <li className="included">Post scheduling</li>
-                                <li className="not-included">Captions &amp; Hashtags</li>
-                                <li className="not-included">Custom Branding</li>
-                                <li className="not-included">DM handling</li>
-                            </ul>
-                        </Card.Text>
-                        <h2 style={{float:'left'}}>5499 </h2><span>*month</span>
-                        <Button variant="success" href="#contact2" style={{float:'right'}}>GRAB NOW</Button>
-                    </Card.Body>
-                </Card>
-                <Card data-aos="fade-left" className="boxes">
-                    <Card.Body>
-                        <Card.Title className="title">Premium</Card.Title>
-                        <Card.Text className="p-3 lists">
-                            <ul>
-                                <li className="included">30 Posts + 10 stories</li>
-                                <li className="included">On-demand Bio updation</li>
-                                <li className="included">On-demand Insights report</li>
-                                <li className="included">4 Profile Booster</li>
-                                <li className="included">Theme Pages</li>
-                                <li className="included">Post scheduling</li>
-                                <li className="included">Captions &amp; Hashtags</li>
-                                <li className="included">Custom Branding</li>
-                                <li className="included">DM handling</li>
-                            </ul>
-                        </Card.Text >
-                        <h2 style={{float:'left'}}>7499 </h2><span>*month</span>
-                        <Button href="#contact2"  variant="success" style={{float:'right'}}>GRAB NOW</Button>
-
-                    </Card.Body>
-                </Card>
-            </div>
-        </div> */}
+       <br/>
         <h1 className="title" style={{textAlign:'center',fontSize:'45px'}}>CHOOSE YOUR PACKAGE</h1>
-        
+        <br/>
+        <br/>
         <br/>
         <hr/>
         <MDBContainer className="pricng ">
