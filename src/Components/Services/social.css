@@ -42,8 +42,12 @@ overflow-x: hidden;
   }
   .title{
       text-align: center;
-      
+
   }
+  .containers .cards {
+    margin: 25px 0px !important;
+
+}
   
 }
 
