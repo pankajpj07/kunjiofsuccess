@@ -3,18 +3,27 @@ import AOS from 'aos';
 import Contact2 from '../Contact2'
 import 'aos/dist/aos.css';
 import "./social.css";
+import {Helmet} from "react-helmet"
 // import {Card,Button} from 'react-bootstrap'
 import Designs from './Designs'
 import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBBadge, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 
 
 export default function Social() {
+
+
     
     useEffect(() => {
         AOS.init({duration:2500})
     }, [])
     return (
         <>
+        <Helmet>
+          <title>KunjiOfSuccess: Empowering Startups, Creating Brands</title>
+          <meta name="description" content="We manage your online presence on social media platforms like Facebook, Instagram creating, publishing, and analyzing the content you post. In addition, SMM includes engaging and interacting with social media users"  data-react-helmet="true" />
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
+
         <section className="freearea-50 d-md-none"></section>
         <section className="freearea-100 d-none d-md-block"></section>
         <h1 className=" h1-responsive" style={{textAlign:'center'}}>OUR WORK SO FAR</h1>

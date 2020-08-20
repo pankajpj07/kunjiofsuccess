@@ -14,6 +14,7 @@ export default function Web() {
                                     <div class="modal-body p-0">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
+                                      
                                         </button>
                                         
                                         <div class="row">

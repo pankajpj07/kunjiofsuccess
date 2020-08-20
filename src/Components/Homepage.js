@@ -7,6 +7,7 @@ import Testimonials from './Testimonials'
 import Great from './Great'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -19,6 +20,11 @@ const Homepage=()=>{
         
       
         return (<>
+          <Helmet>
+          <title>KunjiOfSuccess: Empowering Startups, Creating Brands</title>
+          <meta name="description" content="KunjiOfSuccess is a full-service digital marketing agency with highly creative and passionate experts for building a relationship between Brands & Customers through the combination of technology and communication." />
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
         
         <div class="view deep-purple darken-3 container-fluid" style={{height:'100vh',paddingLeft:'25px',paddingRight:'25px'}}>
           <div class="row align-items-center h-100 1-100">
