@@ -109,7 +109,7 @@ export default function Designs() {
         )
     })
     return (<>
-       <MDBContainer fluid style={{boxSizing:"border-box",padding:'20px'}}>
+       <MDBContainer style={{boxSizing:"border-box",padding:'20px'}}>
             <MDBRow>
                 {card}
             </MDBRow>

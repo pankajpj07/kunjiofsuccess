@@ -36,6 +36,7 @@ function Footer2() {
                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                     <li><a href="/terms-and-conditions">T&C</a></li>
                     <li><a href="/disclaimer"> Disclaimer</a></li>
+                    <li><a href="https://pankaj12pj88.freshdesk.com/support/tickets/new" target="_blank" rel="noopener noreferrer"> Raise a ticket</a></li>
                     <li><a href="https://cutshort.io/company/kunjiofsuccess-99" target="_blank" rel="noopener noreferrer"> Careers</a></li>
                     </ul>
                 </div> 
