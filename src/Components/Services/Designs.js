@@ -64,7 +64,7 @@ export default function Designs() {
         //     </div>
         // </div>)
         <>
-            <MDBCol size="4" className="d-none d-lg-block py-3 px-md-5">
+            <MDBCol size="4" className="d-none d-lg-block py-3 ">
               <MDBCard>
                 <MDBCardImage className="img-fluid" src={obj.src}
                   waves />
