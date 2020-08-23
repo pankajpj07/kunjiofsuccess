@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
 import Navbar from './Components/Navbar'
-import {Container} from 'react-bootstrap'
 import Footer from './Components/Footer2'
 import {  Switch, Route } from 'react-router-dom';
 import Loader from "./Components/Loader";

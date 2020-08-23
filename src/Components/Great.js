@@ -19,7 +19,7 @@ export default function Great() {
 
     {/* Grid column */}
     <div class="col-lg-5 text-center text-lg-left">
-      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg" alt="Sample image"/>
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg" alt="screen"/>
     </div>
     {/* Grid column */}
 
