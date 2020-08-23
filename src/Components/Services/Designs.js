@@ -2,47 +2,47 @@ import React from 'react'
 import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 const portfolio=[
     {
-         "src":"./assets/Design_Images/1.png",
+         "src":"https://image.freepik.com/free-psd/coronavirus-instagram-stories-template-with-photo_23-2148484432.jpg",
         "client":"https://www.instagram.com/makhijabrothers/",
-        "title":"Cloth Store"
+        "title":"COVID-19"
     },
     { 
-        "src":"./assets/Design_Images/2.png",
+        "src":"https://fernieweb.com/wp-content/uploads/2014/03/home-banner.jpg",
         "client":"https://www.instagram.com/kunjiofsuccess.uxui/",
-        "title":"Travelling "
+        "title":"UI/UX"
     },
     { 
-        "src":"./assets/Design_Images/3.png",
+        "src":"https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/5653484/600/400/m2/fpnw/wm0/cm-north-wales-ig-stories-mock-upsartboard-1-.png?1546744036&s=c4479b71502197c0c53498ad262f8282",
         "client":"https://www.instagram.com/pennytravelr/",
-        "title":"Women's Wear"
+        "title":"Travelling"
     },
     {
-         "src":"./assets/Design_Images/4.png",
+         "src":"https://i.pinimg.com/originals/b4/7d/46/b47d46d379f06ae5b0f4abde6f115fd0.jpg",
         "client":"https://www.instagram.com/grofitnutrition/",
-        "title":"Birds"
-    },
-    { 
-        "src":"./assets/Design_Images/5.png",
-        "client":"https://www.instagram.com/orgaliciousfoods/",
         "title":"Fitness"
     },
     { 
-        "src":"./assets/Design_Images/6.png",
+        "src":"https://i.pinimg.com/originals/64/a7/a8/64a7a89966f42517e954655296aecc75.jpg",
+        "client":"https://www.instagram.com/orgaliciousfoods/",
+        "title":"Food"
+    },
+    { 
+        "src":"https://elements-cover-images-0.imgix.net/2a0a9840-a6cf-4f5f-81fc-3d663dca74b8?auto=compress%2Cformat&fit=max&w=710&s=4b02467e486332eefaf07907cca064ff",
         "client":"https://www.instagram.com/madlol_yt/",
-        "title":"Yoga Mobile UI"
+        "title":"Gaming"
     },
     { 
-        "src":"./assets/Design_Images/7.png",
+        "src":"https://motionarray.imgix.net/preview-226668-7pzCq30srw-high_0010.jpg",
         "client":"https://www.instagram.com/salasarfinance/",
-        "title":"Musical Concert"
+        "title":"Financial"
     },
     { 
-        "src":"./assets/Design_Images/8.png",
+        "src":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/132379246/original/b99b0d93be1fcc1e7fe538c0834e90aa580d2c93/design-hq-instagram-post-with-artwork.png",
         "client":"https://www.instagram.com/my999store/",
-        "title":"Nature"
+        "title":"E-commerce"
     },
     { 
-        "src":"./assets/Design_Images/1.png",
+        "src":"https://i.pinimg.com/originals/b5/6e/58/b56e58da89a54c3b50dff63ec27a6c4e.jpg",
         "client":"https://www.instagram.com/officialgoldenkite/",
         "title":"Fashion"
     },
@@ -64,7 +64,7 @@ export default function Designs() {
         //     </div>
         // </div>)
         <>
-            <MDBCol size="4" className="d-none d-lg-block py-3 ">
+            <MDBCol size="4" className="d-none d-lg-block py-3 px-md-5">
               <MDBCard>
                 <MDBCardImage className="img-fluid" src={obj.src}
                   waves />
