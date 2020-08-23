@@ -206,8 +206,284 @@ export default function Web() {
                                 
                                     <div class="col-md-6">
                                         
-                                        <div class="view rounded-right">
-                                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg" alt="Sample image"/>
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/1.png" alt="Sample image"/>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="modal fade" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6 py-5 pl-5">
+                                        
+                                        <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                                        <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+                                        <ul class="list-unstyled font-small mt-5">
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                                <p class="text-muted mb-4">Envato Inc.</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                                <p class="text-muted mb-4">June 27, 2019</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                                <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                                <a href="https://kunjiofsuccess.com">KunjiOfSuccess</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/3.png" alt="Sample image"/>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6 py-5 pl-5">
+                                        
+                                        <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                                        <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+                                        <ul class="list-unstyled font-small mt-5">
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                                <p class="text-muted mb-4">Envato Inc.</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                                <p class="text-muted mb-4">June 27, 2019</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                                <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                                <a href="https://kunjiofsuccess.com">KunjiOfSuccess</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/5.png" alt="Sample image"/>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="basicExampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6 py-5 pl-5">
+                                        
+                                        <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                                        <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+                                        <ul class="list-unstyled font-small mt-5">
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                                <p class="text-muted mb-4">Envato Inc.</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                                <p class="text-muted mb-4">June 27, 2019</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                                <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                                <a href="https://kunjiofsuccess.com">KunjiOfSuccess</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/2.png" alt="Sample image"/>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="basicExampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6 py-5 pl-5">
+                                        
+                                        <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                                        <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+                                        <ul class="list-unstyled font-small mt-5">
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                                <p class="text-muted mb-4">Envato Inc.</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                                <p class="text-muted mb-4">June 27, 2019</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                                <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                                <a href="https://kunjiofsuccess.com">KunjiOfSuccess</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/4.png" alt="Sample image"/>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="basicExampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6 py-5 pl-5">
+                                        
+                                        <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                                        <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+                                        <ul class="list-unstyled font-small mt-5">
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                                <p class="text-muted mb-4">Envato Inc.</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                                <p class="text-muted mb-4">June 27, 2019</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                                <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                            </li>
+
+                                            <li>
+                                                <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                                <a href="https://kunjiofsuccess.com">KunjiOfSuccess</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        
+                                        <div class="view rounded-right stretched">
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/6.png" alt="Sample image"/>
                                         </div>
                                         
                                     </div>
@@ -256,20 +532,20 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/1.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Phone Bag</h5>
-                        <p class="card-text text-uppercase mb-3">Bag, Box</p>
+                        <h5 class="my-3">Fashion Website</h5>
+                        <p class="card-text text-uppercase mb-3"> lighting load speed Built on Top of WOrdpress</p>
 
                         </div>
 
                     </a>
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal4">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -284,9 +560,9 @@ export default function Web() {
 
                     <div class="col-md-6 col-lg-4">
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal2">
 
-                        <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src=" /assets/Design_Images/3.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -297,9 +573,9 @@ export default function Web() {
 
                     </a>
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal5">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -314,9 +590,9 @@ export default function Web() {
 
                     <div class="col-md-6 col-lg-4">
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal3">
 
-                        <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -327,14 +603,14 @@ export default function Web() {
 
                     </a>
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal6">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
                         <h5 class="my-3">Magazine</h5>
-                        <p class="card-text text-uppercase mb-3">Book</p>
+                        <p class="card-text text-uppercase mb-3">Book p</p>
 
                         </div>
 
@@ -349,12 +625,12 @@ export default function Web() {
 
                 <div class="row">
                     <div class="col-md-12 col-lg-4">
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap"/>
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal6">
+                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card image cap"/>
                         <div class="card-body">
 
-                        <h5 class="my-3">Paper Bag</h5>
-                        <p class="card-text text-uppercase mb-3">Bag</p>
+                        <h5 class="my-3">Magazine</h5>
+                        <p class="card-text text-uppercase mb-3">Book</p>
 
                         </div>
 
@@ -363,8 +639,8 @@ export default function Web() {
                     </div>
                     <div class="col-md-6 col-lg-4">
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
-                        <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap"/>
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal3">
+                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card image cap"/>
                         <div class="card-body">
                         <h5 class="my-3">Book</h5>
                         <p class="card-text text-uppercase mb-3">Book</p>
@@ -373,14 +649,14 @@ export default function Web() {
                     </a>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal5">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
                         <h5 class="my-3">Magazine</h5>
-                        <p class="card-text text-uppercase mb-3">Book</p>
+                        <p class="card-text text-uppercase mb-3">BookM</p>
 
                         </div>
 
@@ -398,9 +674,9 @@ export default function Web() {
 
                     <div class="col-md-12 col-lg-4">
 
-                    <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal2">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/3.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -415,9 +691,9 @@ export default function Web() {
 
                     <div class="col-md-6 col-lg-4">
 
-                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+                    <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal4">
 
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card image cap"/>
 
                         <div class="card-body">
 
@@ -434,7 +710,7 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
 
-                        <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/1.png " alt="Card image cap"/>
 
                         <div class="card-body">
 
