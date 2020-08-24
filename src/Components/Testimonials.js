@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Container} from 'react-bootstrap'
 
-import { Carousel } from "react-responsive-carousel";
 import "../App.css";
 
 export default class Testimonials extends Component {
@@ -23,7 +21,7 @@ export default class Testimonials extends Component {
       <div class="card testimonial-card">
         <div class="card-up info-color"></div>
         <div class="avatar mx-auto white">
-          <img src="./assets/tyrrell.png" class="rounded-circle img-fluid" width="250px"/>
+          <img alt="Tyrrell Bellzapproved" src="./assets/tyrrell.png" class="rounded-circle img-fluid" width="250px"/>
         </div>
         <div class="card-body">
           <h4 class="font-weight-bold mb-4">Tyrrell Bellzapproved</h4>
@@ -38,7 +36,7 @@ export default class Testimonials extends Component {
         <div class="card-up blue-gradient">
         </div>
         <div class="avatar mx-auto white">
-          <img src="./assets/bigtyme.png" class="rounded-circle img-fluid" width="250px"/>
+          <img alt="The BoxerDude" src="./assets/bigtyme.png" class="rounded-circle img-fluid" width="250px"/>
         </div>
         <div class="card-body">
           <h4 class="font-weight-bold mb-4">The BoxerDude</h4>
@@ -52,7 +50,7 @@ export default class Testimonials extends Component {
       <div class="card testimonial-card">
         <div class="card-up indigo"></div>
         <div class="avatar mx-auto white">
-          <img src="./assets/dr-pankaj.jpeg" class="rounded-circle img-fluid" width="250px"/>
+          <img alt="Dr. Pankaj Tuli" src="./assets/dr-pankaj.jpeg" class="rounded-circle img-fluid" width="250px"/>
         </div>
         <div class="card-body">
           <h4 class="font-weight-bold mb-4">Dr. Pankaj Tuli</h4>

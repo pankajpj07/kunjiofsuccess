@@ -36,21 +36,21 @@ export default function Social() {
       <div class="col-md-4 px-4 mb-4">
 
         <div class="view">
-          <img src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg" class="img-fluid" alt="smaple image"/>
+          <img src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg" class="img-fluid" alt="smaple "/>
         </div>
 
       </div>
      <div class="col-md-4 px-4 mb-4">
 
         <div class="view">
-          <img src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg" class="img-fluid" alt="smaple image"/>
+          <img src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg" class="img-fluid" alt="smaple "/>
         </div>
 
       </div>
       <div class="col-md-4 px-4 mb-4">
 
         <div class="view">
-          <img src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg" class="img-fluid" alt="smaple image"/>
+          <img src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg" class="img-fluid" alt="smaple "/>
         </div>
 
       </div>

@@ -1,9 +1,5 @@
-import React,{useEffect} from 'react'
-import {Container,Card,Button,CardDeck,Modal} from 'react-bootstrap'
-import { useState } from 'react';
+import React from 'react'
 import "../App.css";
-import { MDBView } from "mdbreact";
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Services() {

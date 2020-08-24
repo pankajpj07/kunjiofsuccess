@@ -13,7 +13,7 @@ export default function Web() {
             <div class="col-md-7 mb-4">
 
                 <div class="view">
-                <img src="https://mdbootstrap.com/img/illustrations/graphics(4).png" class="img-fluid" alt="smaple image"/>
+                <img src="https://mdbootstrap.com/img/illustrations/graphics(4).png" class="img-fluid" alt="smaple "/>
                 </div>
 
             </div>
@@ -207,7 +207,7 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/1.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/1.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
@@ -263,7 +263,7 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/3.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/3.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
@@ -318,14 +318,14 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/5.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/5.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
                                 
                                 </div>
                                 
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -373,7 +373,7 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/2.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/2.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
@@ -428,7 +428,7 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/4.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/4.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
@@ -483,7 +483,7 @@ export default function Web() {
                                     <div class="col-md-6">
                                         
                                         <div class="view rounded-right stretched">
-                                            <img class="img-fluid img-fit" src="/assets/Design_Images/6.png" alt="Sample image"/>
+                                            <img class="img-fluid img-fit" src="/assets/Design_Images/6.png" alt="Sample "/>
                                         </div>
                                         
                                     </div>
@@ -532,12 +532,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
 
-                        <img class="card-img-top" src="/assets/Design_Images/1.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/1.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Fashion Website</h5>
-                        <p class="card-text text-uppercase mb-3"> lighting load speed Built on Top of WOrdpress</p>
+                        <h5 class="my-3">Luxury Brand</h5>
+                        <p class="card-text text-uppercase mb-3">A brand is a voice and a product is a souvenir. </p>
 
                         </div>
 
@@ -545,12 +545,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal4">
 
-                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Paper Bag</h5>
-                        <p class="card-text text-uppercase mb-3">Bag</p>
+                        <h5 class="my-3">Bagpack Summer</h5>
+                        <p class="card-text text-uppercase mb-3">It's summer time let's go hiking with our backpacks</p>
 
                         </div>
 
@@ -562,12 +562,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal2">
 
-                        <img class="card-img-top" src=" /assets/Design_Images/3.png" alt="Card image cap"/>
+                        <img class="card-img-top" src=" /assets/Design_Images/3.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Book</h5>
-                        <p class="card-text text-uppercase mb-3">Book</p>
+                        <h5 class="my-3">Fashion</h5>
+                        <p class="card-text text-uppercase mb-3">You can have anything you want in life if you dress for it</p>
 
                         </div>
 
@@ -575,12 +575,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal5">
 
-                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Notes</h5>
-                        <p class="card-text text-uppercase mb-3">Note</p>
+                        <h5 class="my-3">Blog website</h5>
+                        <p class="card-text text-uppercase mb-3">A blog is only as interesting as the interest shown in others.”</p>
 
                         </div>
 
@@ -592,12 +592,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal3">
 
-                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card image cap"/>
+                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">T-shirt</h5>
-                        <p class="card-text text-uppercase mb-3">Box</p>
+                        <h5 class="my-3">Rental Bike</h5>
+                        <p class="card-text text-uppercase mb-3">Rent a bike to fit into your daily routine.</p>
 
                         </div>
 
@@ -605,12 +605,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal6">
 
-                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Magazine</h5>
-                        <p class="card-text text-uppercase mb-3">Book p</p>
+                        <h5 class="my-3">Mediatate Application Design</h5>
+                        <p class="card-text text-uppercase mb-3">Meditation is a vital way to quiet the mind and the body</p>
 
                         </div>
 
@@ -626,11 +626,11 @@ export default function Web() {
                 <div class="row">
                     <div class="col-md-12 col-lg-4">
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal6">
-                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/6.png" alt="Card  cap"/>
                         <div class="card-body">
 
-                        <h5 class="my-3">Magazine</h5>
-                        <p class="card-text text-uppercase mb-3">Book</p>
+                        <h5 class="my-3">Mediatate Application Design</h5>
+                        <p class="card-text text-uppercase mb-3">Meditation is a vital way to quiet the mind and the body</p>
 
                         </div>
 
@@ -640,10 +640,11 @@ export default function Web() {
                     <div class="col-md-6 col-lg-4">
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal3">
-                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card image cap"/>
+                        <img class="card-img-top" src=" /assets/Design_Images/5.png" alt="Card  cap"/>
                         <div class="card-body">
-                        <h5 class="my-3">Book</h5>
-                        <p class="card-text text-uppercase mb-3">Book</p>
+                        <h5 class="my-3">Rental Bike</h5>
+                        <p class="card-text text-uppercase mb-3">Rent a bike to fit into your daily routine.</p>
+
                         </div>
 
                     </a>
@@ -651,12 +652,12 @@ export default function Web() {
                     <div class="col-md-6 col-lg-4">
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal5">
 
-                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/4.png" alt="Card  cap"/>
 
                         <div class="card-body">
 
-                        <h5 class="my-3">Magazine</h5>
-                        <p class="card-text text-uppercase mb-3">BookM</p>
+                        <h5 class="my-3">Blog website</h5>
+                        <p class="card-text text-uppercase mb-3">A blog is only as interesting as the interest shown in others.”</p>
 
                         </div>
 
@@ -676,12 +677,12 @@ export default function Web() {
 
                     <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal2">
 
-                        <img class="card-img-top" src="/assets/Design_Images/3.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/3.png" alt="Card  cap"/>
 
                         <div class="card-body">
+                        <h5 class="my-3">Fashion</h5>
+                        <p class="card-text text-uppercase mb-3">You can have anything you want in life if you dress for it</p>
 
-                        <h5 class="my-3">Phone Bag</h5>
-                        <p class="card-text text-uppercase mb-3">Bag, Box</p>
 
                         </div>
 
@@ -693,12 +694,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal4">
 
-                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/2.png" alt="Card  cap"/>
 
                         <div class="card-body">
+                        <h5 class="my-3">Bagpack Summer</h5>
+                        <p class="card-text text-uppercase mb-3">It's summer time let's go hiking with our backpacks</p>
 
-                        <h5 class="my-3">Notes</h5>
-                        <p class="card-text text-uppercase mb-3">Note</p>
 
                         </div>
 
@@ -710,12 +711,12 @@ export default function Web() {
 
                     <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
 
-                        <img class="card-img-top" src="/assets/Design_Images/1.png " alt="Card image cap"/>
+                        <img class="card-img-top" src="/assets/Design_Images/1.png " alt="Card  cap"/>
 
                         <div class="card-body">
+                        <h5 class="my-3">Luxury Brand</h5>
+                        <p class="card-text text-uppercase mb-3">A brand is a voice and a product is a souvenir. </p>
 
-                        <h5 class="my-3">T-shirt</h5>
-                        <p class="card-text text-uppercase mb-3">Box</p>
 
                         </div>
 
