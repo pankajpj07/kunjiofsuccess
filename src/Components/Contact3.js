@@ -175,7 +175,7 @@ render(){
             </li>
             <li>
               <MDBIcon icon="phone" size="2x" className="blue-text mt-4" />
-              <p>+918010592093</p>
+              <p> +918010592093</p>
             </li>
             <li>
               <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
