@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from 'react-ga';
 import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 const portfolio=[
     {

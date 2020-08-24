@@ -13,6 +13,7 @@ export default class Contact extends Component {
 
         handleName=e=>{
             this.setState({name:e.target.value})
+           // console.log(this.)
             
         }
 

@@ -601,3 +601,10 @@ html, body { height: 100%;}
     font-weight:600
   }
 }
+@media(min-width: 770px){
+	.boxing{
+		max-width: 65vw;
+		padding-bottom:10vh;
+		margin: 0 auto;
+	}
+}

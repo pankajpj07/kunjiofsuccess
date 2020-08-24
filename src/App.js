@@ -1,9 +1,11 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy,useEffect } from 'react';
 import Navbar from './Components/Navbar'
 import {Container} from 'react-bootstrap'
 import Footer from './Components/Footer2'
 import {  Switch, Route } from 'react-router-dom';
 import Loader from "./Components/Loader";
+import Contact from "./Components/Contact3";
+import ReactGA from "react-ga"
 //import Homepage from './Components/Homepage'
 //import Privacy_policy from './Components/Privacy_policy'
 //import Disclaimer from './Components/Disclaimer'
@@ -63,6 +65,12 @@ const Web = lazy(() => {
 // React Lazy Loading End
 
 const App=()=>{
+  useEffect(() => {
+    ReactGA.initialize("UA-168735476-1");
+    ReactGA.pageview(window.location.pathname);
+    console.log("google");
+  }, [window.location.pathname]);
+
     return(
         <>
         <Navbar/>
@@ -78,6 +86,7 @@ const App=()=>{
                     <Route  path='/disclaimer' component={Disclaimer}/>
                     <Route  path='/social' component={Social}/>
                     <Route  path='/web' component={Web}/>
+                    <Route  path='/contact-us' component={Contact}/>
                     <Route  path='/*' component={PageNotFound}/>
           
             </Switch>
