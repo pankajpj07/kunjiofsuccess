@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import ReactGA from 'react-ga'
 import {Row,Container, Col,Image,Carousel} from 'react-bootstrap'
 function Designer() {
         // Desginer Section
@@ -7,6 +8,53 @@ function Designer() {
         const handleSelect = (selectedIndex, e) => {
             setIndex(selectedIndex);
         };
+
+        const akashInstagram= () => {
+          ReactGA.event({
+            category: "About",
+            action: "akash Instagram profile viewed",
+            transport: 'beacon'
+          });
+        }
+          const akashLinkedin= () => {
+            ReactGA.event({
+              category: "About",
+              action: "akash Linkedin profile viewed",
+              transport: 'beacon'
+            });
+          };
+        ;
+    
+        const subhamInstagram= () => {
+          ReactGA.event({
+            category: "About",
+            action: "subham Instagram profile viewed",
+            transport: 'beacon'
+          });
+        }
+          const subhamLinkedin= () => {
+            ReactGA.event({
+              category: "About",
+              action: "subham Linkedin profile viewed",
+              transport: 'beacon'
+            });
+          };
+        ;
+    
+        const shwetaInstagram= () => {
+          ReactGA.event({
+            category: "About",
+            action: "shweta Instagram profile viewed",
+            transport: 'beacon'
+          });
+        }
+          const shwetaLinkedin= () => {
+            ReactGA.event({
+              category: "About",
+              action: "shweta Linkedin profile viewed",
+              transport: 'beacon'
+            });
+          };
     return (
     <>
     <Container fluid className="text-center" style={{marginTop:"5rem"}}>
@@ -30,12 +78,12 @@ function Designer() {
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shubham Velnaskar is a vector artist, working in this field since 2 years . His dream is to create his own vector art's business. The way he is providing value to KunjiOfSuccess and the clients he is soon gonna achieve his goals.</p>
                             <ul className="social-network social-circle text-left"> 
                                 <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={subhamInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={subhamLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
@@ -57,12 +105,12 @@ function Designer() {
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shweta Bansal is serving as CFO for KunjiOfSuccess. She is highly motivated in what she does and keep up with the latest finance management tools for eficiency and productivity of the company.</p>
                             <ul className="social-network social-circle text-left"> 
                               <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={shwetaInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={shwetaLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
@@ -84,12 +132,12 @@ function Designer() {
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">I am a UX/UI designer, always looking to learn something new. I am a self taught designer, apart from designing I enjoy reading books and studying about latest technologies and cars.</p>
                             <ul className="social-network social-circle text-left"> 
                                     <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram"onClick={akashInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={akashLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>

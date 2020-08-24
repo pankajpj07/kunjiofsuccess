@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Button, Container, Row, Col, Form, Modal} from 'react-bootstrap'
 import "../Config"
+import ReactGA from 'react-ga'
 import * as firebase from "firebase"
 
 export default class Contact extends Component {
@@ -26,6 +27,11 @@ export default class Contact extends Component {
         handleSubmit=e=>{
             var time=new Date().toISOString()
             e.preventDefault()
+            ReactGA.event({
+                category: "Contact Form ",
+                action: "Bottom Contact Form  Submitted!",
+                transport: 'beacon'
+              });
             var phonePattern= /^(00|\+)?(91)?[9876][0-9]{9}$/
             if(this.state.name==="" || this.state.phone==="")
                 alert("Both fields are required")

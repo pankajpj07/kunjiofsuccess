@@ -6,6 +6,7 @@ import "./social.css";
 import {Helmet} from "react-helmet"
 // import {Card,Button} from 'react-bootstrap'
 import Designs from './Designs'
+import ReactGA from 'react-ga'
 import { MDBBtn, MDBCard,MDBContainer, MDBRow, MDBCardBody, MDBBadge, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 
 
@@ -16,6 +17,29 @@ export default function Social() {
     useEffect(() => {
         AOS.init({duration:2500})
     }, [])
+
+    const basicPlan= () => {
+        ReactGA.event({
+          category: "Pricing",
+          action: "Basic Plan Button Clicked!",
+          transport: 'beacon'
+        });
+      };
+      const standardPlan= () => {
+        ReactGA.event({
+          category: "Pricing",
+          action: "Standard Plan Button Clicked!",
+          transport: 'beacon'
+        });
+      };
+    
+      const premiumPlan= () => {
+        ReactGA.event({
+          category: "Pricing",
+          action: "Premium Plan Button Clicked!",
+          transport: 'beacon'
+        });
+      };
     return (
         <>
         <Helmet>
@@ -144,7 +168,7 @@ export default function Social() {
                         <br/>
                         <form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FSJZoX4GPVifYm"> </script> </form>
                         <h3>Buy Now at <MDBBadge color="primary">3499/-</MDBBadge></h3>
-                        <MDBBtn   href='https://rzp.io/l/3oEhejU' target="_blank" >GRAB NOW</MDBBtn>
+                        <MDBBtn   href='https://rzp.io/l/3oEhejU' target="_blank" onClick={basicPlan} >GRAB NOW</MDBBtn>
                         
                         </MDBCardBody>
                     </MDBCard>
@@ -171,7 +195,7 @@ export default function Social() {
 
                         <h3>Buy Now at <MDBBadge color="primary">5499/-</MDBBadge></h3>
 
-                        <MDBBtn href='https://rzp.io/l/uBfYXHQ' target="_blank">GRAB NOW</MDBBtn>
+                        <MDBBtn href='https://rzp.io/l/uBfYXHQ' target="_blank" onClick={standardPlan}>GRAB NOW</MDBBtn>
                         
                         </MDBCardBody>
                     </MDBCard>
@@ -198,7 +222,7 @@ export default function Social() {
 
                         <h3>Buy Now at <MDBBadge color="primary">7499/-</MDBBadge></h3>
 
-                        <MDBBtn    href='https://rzp.io/l/AT7vfm9' target="_blank">GRAB NOW</MDBBtn>
+                        <MDBBtn    href='https://rzp.io/l/AT7vfm9' target="_blank" onClick={premiumPlan}>GRAB NOW</MDBBtn>
 
                         
                         </MDBCardBody>

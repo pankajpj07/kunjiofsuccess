@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import ReactGA from 'react-ga'
 import {Row,Container, Col,Image,Carousel} from 'react-bootstrap'
 
 function Writer(){ // Contentwiters Carousel
@@ -7,6 +8,53 @@ const [index, setIndex] = useState(0);
 const handleSelect = (selectedIndex, e) => {
 setIndex(selectedIndex);
 };
+
+const dhruvikInstagram= () => {
+  ReactGA.event({
+    category: "About",
+    action: "dhruvik Instagram profile viewed",
+    transport: 'beacon'
+  });
+}
+  const dhruvikLinkedin= () => {
+    ReactGA.event({
+      category: "About",
+      action: "dhruvik Linkedin profile viewed",
+      transport: 'beacon'
+    });
+  };
+;
+
+const ramsaiInstagram= () => {
+  ReactGA.event({
+    category: "About",
+    action: "ramsai Instagram profile viewed",
+    transport: 'beacon'
+  });
+}
+  const ramsaiLinkedin= () => {
+    ReactGA.event({
+      category: "About",
+      action: "ramsai Linkedin profile viewed",
+      transport: 'beacon'
+    });
+  };
+;
+
+const sampreethInstagram= () => {
+  ReactGA.event({
+    category: "About",
+    action: "sampreeth Instagram profile viewed",
+    transport: 'beacon'
+  });
+}
+  const sampreethLinkedin= () => {
+    ReactGA.event({
+      category: "About",
+      action: "sampreeth Linkedin profile viewed",
+      transport: 'beacon'
+    });
+  };
 return (
 <>
 <Container fluid className="text-center" style={{marginTop:"5rem",marginBottom:"5rem"}}>
@@ -30,12 +78,12 @@ return (
                         <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Dhruvik Patel is on Internship with Kunji of Success. He is working on content and marketing for the firm. Apart from that he also like to manage the work in proper manner.</p>
                         <ul className="social-network social-circle text-left"> 
                                 <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={dhruvikInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={dhruvikLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
@@ -55,12 +103,12 @@ return (
                         <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Ramasai is energetic , hardworking and self learning student looking forward for a good opportunity in order to secure a challenging position in a reputable organization to expand his learnings, knowledge, and skills</p>
                         <ul className="social-network social-circle text-left"> 
                                 <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={ramsaiInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={ramsaiLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
@@ -81,12 +129,12 @@ return (
                         <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Sampreeth is a driven and motivated team worker. He can learn and adapt to new things in no time. Give him a task and consider it done. He can develop amazing content for business related pages, design logo, SMM and much more.</p>
                         <ul className="social-network social-circle text-left"> 
                                 <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={sampreethInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin" onClick={sampreethLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>

@@ -1,9 +1,80 @@
 import React from 'react'
 import "./social.css";
 import Contact2 from '../Contact2'
-
+import ReactGA from 'react-ga'
 
 export default function Web() {
+
+    const modalData=[
+        {
+             "src":"/assets/Design_Images/6.png",
+             "id":"j",
+            "title":"",
+            
+        },
+        { 
+            "src":"https://fernieweb.com/wp-content/uploads/2014/03/home-banner.jpg",
+            "client":"https://www.instagram.com/kunjiofsuccess.uxui/",
+            "title":"UI/UX"
+        },
+        { 
+            "src":"https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/5653484/600/400/m2/fpnw/wm0/cm-north-wales-ig-stories-mock-upsartboard-1-.png?1546744036&s=c4479b71502197c0c53498ad262f8282",
+            "client":"https://www.instagram.com/pennytravelr/",
+            "title":"Travelling"
+        },
+        {
+             "src":"https://i.pinimg.com/originals/b4/7d/46/b47d46d379f06ae5b0f4abde6f115fd0.jpg",
+            "client":"https://www.instagram.com/grofitnutrition/",
+            "title":"Fitness"
+        },
+        { 
+            "src":"https://i.pinimg.com/originals/64/a7/a8/64a7a89966f42517e954655296aecc75.jpg",
+            "client":"https://www.instagram.com/orgaliciousfoods/",
+            "title":"Food"
+        },
+        { 
+            "src":"https://elements-cover-images-0.imgix.net/2a0a9840-a6cf-4f5f-81fc-3d663dca74b8?auto=compress%2Cformat&fit=max&w=710&s=4b02467e486332eefaf07907cca064ff",
+            "client":"https://www.instagram.com/madlol_yt/",
+            "title":"Gaming"
+        },
+        { 
+            "src":"https://motionarray.imgix.net/preview-226668-7pzCq30srw-high_0010.jpg",
+            "client":"https://www.instagram.com/salasarfinance/",
+            "title":"Financial"
+        },
+        { 
+            "src":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/132379246/original/b99b0d93be1fcc1e7fe538c0834e90aa580d2c93/design-hq-instagram-post-with-artwork.png",
+            "client":"https://www.instagram.com/my999store/",
+            "title":"E-commerce"
+        },
+        { 
+            "src":"https://i.pinimg.com/originals/b5/6e/58/b56e58da89a54c3b50dff63ec27a6c4e.jpg",
+            "client":"https://www.instagram.com/officialgoldenkite/",
+            "title":"Fashion"
+        },
+    
+        ]
+    const seeAll= () => {
+        ReactGA.event({
+          category: "Web Section",
+          action: "1st tab Button Clicked! from Web Page to see the Designs",
+          transport: 'beacon'
+        });
+      };
+    const seeWebsiteDesign= () => {
+        ReactGA.event({
+          category: "Web Section",
+          action: "2nd tab Button Clicked! from Web Page to see the Designs",
+          transport: 'beacon'
+        });
+      };
+      const seeMockup= () => {
+        ReactGA.event({
+          category: "Web Section",
+          action: "3rd tab Button Clicked! from Web Page to see the Designs",
+          transport: 'beacon'
+        });
+      };
     return (<>
             <div class="container-fluid" >
 
@@ -90,7 +161,7 @@ export default function Web() {
                     
                     
 
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal1" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
@@ -164,7 +235,7 @@ export default function Web() {
             {/* Modal and design */}
             <div class="container my-5">
             <section>
-                <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -220,7 +291,7 @@ export default function Web() {
                 </div>
 
                 
-                <div class="modal fade" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -275,7 +346,7 @@ export default function Web() {
                     </div>
                 </div>
 
-                <div class="modal fade" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal3" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -330,7 +401,7 @@ export default function Web() {
                     </div>
                 </div>
 
-                <div class="modal fade" id="basicExampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal4" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -385,7 +456,7 @@ export default function Web() {
                     </div>
                 </div>
 
-                <div class="modal fade" id="basicExampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal5" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -440,7 +511,7 @@ export default function Web() {
                     </div>
                 </div>
 
-                <div class="modal fade" id="basicExampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="basicExampleModal6" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body p-0">
@@ -508,13 +579,13 @@ export default function Web() {
 
                 <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">ALL</a>
+            <a class="nav-link active font-weight-bold text-uppercase" onClick={seeAll} data-toggle="tab" href="#panel31" role="tab">ALL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">Design</a>
+            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" onClick={seeWebsiteDesign} href="#panel32" role="tab">Design</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">Mockup</a>
+            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" onClick={seeMockup} href="#panel33" role="tab">Mockup</a>
           </li>
         </ul>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState} from 'react'
 import {Row,Container, Col,Image,Carousel} from 'react-bootstrap'
+import ReactGA from 'react-ga'
 import "../../App.css";
 
 function Coder() { 
@@ -9,6 +10,53 @@ function Coder() {
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
+    const aliInstagram= () => {
+      ReactGA.event({
+        category: "About",
+        action: "Ali Instagram profile viewed",
+        transport: 'beacon'
+      });
+    }
+      const aliLinkedin= () => {
+        ReactGA.event({
+          category: "About",
+          action: "Ali Linkedin profile viewed",
+          transport: 'beacon'
+        });
+      };
+    ;
+
+    const pankajInstagram= () => {
+      ReactGA.event({
+        category: "About",
+        action: "Pankaj Instagram profile viewed",
+        transport: 'beacon'
+      });
+    }
+      const pankajLinkedin= () => {
+        ReactGA.event({
+          category: "About",
+          action: "Pankaj Linkedin profile viewed",
+          transport: 'beacon'
+        });
+      };
+    ;
+
+    const nishantInstagram= () => {
+      ReactGA.event({
+        category: "About",
+        action: "Nishant Instagram profile viewed",
+        transport: 'beacon'
+      });
+    }
+      const nishantLinkedin= () => {
+        ReactGA.event({
+          category: "About",
+          action: "Nishant Linkedin profile viewed",
+          transport: 'beacon'
+        });
+      };
+    ;
     return (
     <>
   <Container fluid className="text-center">
@@ -32,12 +80,12 @@ function Coder() {
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Pankaj Jain is the chairman & CEO of KunjiOfSuccess, a modern-day media and communications holding company and full-service marketing agency servicing clients across the various locations.</p>
                           <ul className="social-network social-circle text-left"> 
                               <li>
-                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                        <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram" onClick={pankajInstagram}>
                                           <i class="fa fa-instagram"/>
                                         </a>
                                   </li>
                                   <li>
-                                        <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                        <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin"  onClick={pankajLinkedin}>
                                           <i class="fa fa-linkedin"/>
                                         </a>
                                   </li>
@@ -60,12 +108,12 @@ function Coder() {
                           <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Shekh Aliul is highly self motivated web developer who spends most of time building applications, Teaching Others and Lopping himself upto date with latest technologies</p>
                           <ul className="social-network social-circle text-left"> 
                               <li>
-                                    <a href="https://www.instagram.com/aliii___19/" className="icoInstagram" title="Instagram">
+                                    <a href="https://www.instagram.com/aliii___19/" className="icoInstagram" title="Instagram"  onClick={aliInstagram}>
                                       <i class="fa fa-instagram"/>
                                     </a>
                               </li>
                               <li>
-                                    <a href="https://www.linkedin.com/in/shekh-aliul/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/in/shekh-aliul/" className="icoLinkedin " title="Linkedin"  onClick={aliLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>
@@ -91,12 +139,12 @@ function Coder() {
                             <p style={{fontFamily:'"Metrophobic", sans-serif', fontSize:"20px"}} className="d-none d-md-block text-justify">Nishant Thakur is working as Developer for KunjiofSuccess. He is highy workoholic person in our team. Every problem he has a solution.</p>
                             <ul className="social-network social-circle text-left"> 
                             <li>
-                                    <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram">
+                                    <a href="https://www.instagram.com/mai_hun_pj/" className="icoInstagram" title="Instagram"  onClick={nishantInstagram}>
                                       <i class="fa fa-instagram"/>
                                     </a>
                               </li>
                               <li>
-                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin">
+                                    <a href="https://www.linkedin.com/company/kunjiofsuccess/" className="icoLinkedin " title="Linkedin"  onClick={nishantLinkedin}>
                                       <i class="fa fa-linkedin"/>
                                     </a>
                               </li>

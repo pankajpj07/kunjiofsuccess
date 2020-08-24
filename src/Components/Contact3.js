@@ -11,9 +11,10 @@ export default class Contact3 extends Component {
         email:"",
         phone: "",
         description:"",
-        yourBusiness:"",
+        Business:"",
         show:false,
     }
+
     
 
     handleName=e=>{
@@ -23,7 +24,7 @@ export default class Contact3 extends Component {
     }
 
     handleDescription=e=>{
-        this.setState({yourBusiness:e.target.value})
+        this.setState({Business:e.target.value})
         
     }
 
@@ -80,7 +81,7 @@ export default class Contact3 extends Component {
             //     email:this.state.email,
             //     phone: this.state.phone,
             //     description:this.state.description,
-            //     yourBusiness:this.state.yourBusiness,
+            //     Business:this.state.Business,
                 
             // }
             // emailjs.sendForm("gmail", "template_VWyrkiEi", e.target, "user_TuQUHVr8uydx6aGkrtdVq")
@@ -121,7 +122,7 @@ render(){
             <MDBRow>
               <MDBCol md="6">
                 <div className="md-form mb-0">
-                  <MDBInput type="text" id="contact-name" label="Your name" onChange={this.handleName} />
+                  <MDBInput type="text" id="contact-name" label="Name" onChange={this.handleName} />
                 </div>
               </MDBCol>
               <MDBCol md="6">
@@ -129,7 +130,7 @@ render(){
                   <MDBInput
                     type="text"
                     id="contact-email"
-                    label="Your email"
+                    label=" Email"
                     onInput={this.handleEmail}
                   />
                 </div>
@@ -138,7 +139,7 @@ render(){
             <MDBRow>
               <MDBCol md="6">
                 <div className="md-form mb-0">
-                  <MDBInput type="text" id="contact-subject" label="Type of Website"  onChange={this.handleType}  />
+                  <MDBInput type="text" id="contact-subject" label=" Business"  onChange={this.handleType}  />
                 </div>
               </MDBCol>
               <MDBCol md="6">
@@ -153,7 +154,7 @@ render(){
                   <MDBInput
                     type="textarea"
                     id="contact-message"
-                    label="Your Website Description"
+                    label=" Business Description"
                     onChange={this.handleDescription}
                   />
                 </div>
@@ -170,15 +171,15 @@ render(){
           <ul className="list-unstyled mb-0">
             <li>
               <MDBIcon icon="map-marker-alt" size="2x" className="blue-text" />
-              <p>San Francisco, CA 94126, USA</p>
+              <p>House no. 34, i1 Block, Phase I, Budh Vihar, New Delhi</p>
             </li>
             <li>
               <MDBIcon icon="phone" size="2x" className="blue-text mt-4" />
-              <p>+ 01 234 567 89</p>
+              <p>+918010592093</p>
             </li>
             <li>
               <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
-              <p>contact@example.com</p>
+              <p>pankaj12.pj88@gmail.com</p>
             </li>
           </ul>
         </MDBCol>
@@ -188,7 +189,7 @@ render(){
                 <Modal.Title>Whoopee!!!</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    We"re glad that you wanna be a part of our community. We got your details, will contact you shortly.
+                    We"re glad that you wanna be a part of our community. We got  details, will contact you shortly.
                 </Modal.Body>
                 <Modal.Footer>
                 <Button variant="danger" onClick={this.handleClose}>

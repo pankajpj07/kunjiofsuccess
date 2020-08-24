@@ -7,6 +7,7 @@ import Great from './Great'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { Helmet } from 'react-helmet';
+import ReactGA from "react-ga"
 
 
 
@@ -16,6 +17,16 @@ const Homepage=()=>{
       useEffect(() => {
         AOS.init({duration:1500})
     }, [])
+
+    //Google Analytics Event
+
+    const learnMore= () => {
+      ReactGA.event({
+        category: "Home Page",
+        action: "Learn more Button Clicked!",
+        transport: 'beacon'
+      });
+    };
         
       
         return (<>
@@ -31,7 +42,7 @@ const Homepage=()=>{
               <h1 class="white-text mb-4">Better Website Design, More Conversion</h1>
               <p class="mb-4 pb-2 white-text">Different is Boring. We make your business Unique.</p>
               <a type="button" href="#contact" class="btn btn-outline-white btn-md ml-md-0">Get started</a>
-              <a type="button" href="/about-us" class="btn btn-white btn-md">Learn More</a>
+              <a type="button" href="/about-us" class="btn btn-white btn-md" onClick={learnMore}>Learn More</a>
             </div>
             <div class="col-md-6 wow" data-aos="fade-left">
               <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/cards2.png" alt="" class="img-fluid"/>

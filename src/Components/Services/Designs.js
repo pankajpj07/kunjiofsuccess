@@ -51,6 +51,13 @@ const portfolio=[
     ]
 
 export default function Designs() {
+  const seeDesign= () => {
+    ReactGA.event({
+      category: "Explore Designs",
+      action: "One of Designs Explore Button Clicked! from Social Page",
+      transport: 'beacon'
+    });
+  };
     
     const card =portfolio.map((obj,ind)=>{
         return(
@@ -98,7 +105,7 @@ export default function Designs() {
                   <MDBCardTitle>{obj.title}</MDBCardTitle>
                   <MDBCardText>We have worked with clients under {obj.title} category</MDBCardText>
 
-                  <MDBBtn gradient="purple"  href={obj.client} target="_blank">EXPLORE</MDBBtn>
+                  <MDBBtn gradient="purple"  href={obj.client} target="_blank" onClick={seeDesign}>EXPLORE</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
